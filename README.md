@@ -1,6 +1,8 @@
 # VisFormationPlanner
-A visibility-aware formation planning framework that can deal with the visibility of the target.
-
+The source code for the paper "Robots Calling the Shots: Using Multiple Ground Robots for Autonomous Tracking in Cluttered Environments".
+<p align="center">
+  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/over_view.png" alt="formation_planning" width="729" height=538.5">
+</p>
 <p align="center">
   <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/case1.gif" alt="case1" width="600">
 </p>
