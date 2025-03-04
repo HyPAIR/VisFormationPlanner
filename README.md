@@ -60,6 +60,14 @@ $ roslaunch vis_formation_planner animation_demo.launch
   <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/rviz_4.gif" alt="rviz_4" width="600">
 </p>
 
+<p align="center">
+  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/gazebo_3.gif" alt="gazebo_3" width="600">
+</p>
+
+<p align="center">
+  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/gazebo_4.gif" alt="gazebo_4" width="600">
+</p>
+
 ## Test in Gazebo
 
 Write the obstacles to the yaml file, and launch the simulation in Gazebo:
