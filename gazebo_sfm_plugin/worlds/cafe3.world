@@ -1,0 +1,2673 @@
+
+    <!-- Usage notes are located in this file, look for "Usage"-->
+    <?xml version="1.0" ?>
+    <sdf version="1.5">
+      <world name="default">
+        <gui>
+            <camera name="user_camera">
+                <view_controller>orbit</view_controller>
+                <pose>21.943390 -21.026598 40.442112 0.000000 0.835999 1.576000</pose>
+            </camera>
+            <plugin name="grid_plugin" filename="libgazebo_gui.so">
+                <grid>false</grid>
+                <origin>false</origin>
+            </plugin>
+        </gui>
+        <light name="sun" type="directional">
+          <cast_shadows>1</cast_shadows>
+          <pose>0 0 10 0 -0 0</pose>
+          <diffuse>0.8 0.8 0.8 1</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <attenuation>
+            <range>1000</range>
+            <constant>0.9</constant>
+            <linear>0.01</linear>
+            <quadratic>0.001</quadratic>
+          </attenuation>
+          <direction>0 0.5 -0.9</direction>
+        </light>
+
+        <light name="point_light" type="point">
+          <pose>0 -0.377195 6.59868 0 -0 0</pose>
+          <diffuse>0.784314 0.784314 0.784314 1</diffuse>
+          <specular>0.0980392 0.0980392 0.0980392 1</specular>
+          <attenuation>
+            <range>50</range>
+            <constant>0.8</constant>
+            <linear>0</linear>
+            <quadratic>0.001</quadratic>
+          </attenuation>
+          <cast_shadows>0</cast_shadows>
+          <direction>0 0 -1</direction>
+        </light>
+
+        <include>
+          <uri>model://ground_plane</uri>
+        </include>
+    
+    <model name="pink_obstacle_0">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>46.714055 0.924141 0.000000 0.000000 0.000000 0.515072</pose>
+    </model>
+
+    <model name="pink_obstacle_1">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>3.766965 35.918104 0.000000 0.000000 0.000000 0.670244</pose>
+    </model>
+
+    <model name="pink_obstacle_2">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>7.475500 19.732397 0.000000 0.000000 0.000000 0.172958</pose>
+    </model>
+
+    <model name="pink_obstacle_3">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>28.218341 31.873527 0.000000 0.000000 0.000000 0.025634</pose>
+    </model>
+
+    <model name="pink_obstacle_4">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>38.230350 37.607334 0.000000 0.000000 0.000000 0.091677</pose>
+    </model>
+
+    <model name="pink_obstacle_5">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>40.298660 3.570914 0.000000 0.000000 0.000000 0.847894</pose>
+    </model>
+
+    <model name="pink_obstacle_6">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>35.565850 4.997576 0.000000 0.000000 0.000000 0.971486</pose>
+    </model>
+
+    <model name="pink_obstacle_7">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>48.721569 33.250506 0.000000 0.000000 0.000000 0.629780</pose>
+    </model>
+
+    <model name="pink_obstacle_8">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>36.043508 35.787292 0.000000 0.000000 0.000000 0.249717</pose>
+    </model>
+
+    <model name="pink_obstacle_9">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>11.618465 27.958165 0.000000 0.000000 0.000000 0.670215</pose>
+    </model>
+
+    <model name="pink_obstacle_10">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>6.013086 12.966785 0.000000 0.000000 0.000000 0.048870</pose>
+    </model>
+
+    <model name="pink_obstacle_11">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>43.800302 31.783755 0.000000 0.000000 0.000000 0.077478</pose>
+    </model>
+
+    <model name="pink_obstacle_12">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>5.493710 40.161034 0.000000 0.000000 0.000000 1.498785</pose>
+    </model>
+
+    <model name="pink_obstacle_13">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>48.748871 6.018786 0.000000 0.000000 0.000000 0.916541</pose>
+    </model>
+
+    <model name="pink_obstacle_14">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>29.633983 22.997522 0.000000 0.000000 0.000000 0.311947</pose>
+    </model>
+
+    <model name="pink_obstacle_15">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>6.186903 37.091109 0.000000 0.000000 0.000000 1.025067</pose>
+    </model>
+
+    <model name="pink_obstacle_16">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>2.130829 29.661651 0.000000 0.000000 0.000000 1.212941</pose>
+    </model>
+
+    <model name="pink_obstacle_17">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>48.469944 45.380719 0.000000 0.000000 0.000000 1.199917</pose>
+    </model>
+
+    <model name="pink_obstacle_18">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>34.306627 1.921542 0.000000 0.000000 0.000000 0.805042</pose>
+    </model>
+
+    <model name="pink_obstacle_19">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>24.086724 22.381701 0.000000 0.000000 0.000000 0.162172</pose>
+    </model>
+
+    <model name="pink_obstacle_20">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>28.389633 40.057751 0.000000 0.000000 0.000000 1.239587</pose>
+    </model>
+
+    <model name="pink_obstacle_21">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>31.377544 25.873694 0.000000 0.000000 0.000000 0.002540</pose>
+    </model>
+
+    <model name="pink_obstacle_22">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>33.569751 19.589406 0.000000 0.000000 0.000000 1.543019</pose>
+    </model>
+
+    <model name="pink_obstacle_23">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>9.189827 28.485367 0.000000 0.000000 0.000000 0.572823</pose>
+    </model>
+
+    <model name="pink_obstacle_24">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>37.890776 49.964936 0.000000 0.000000 0.000000 0.902124</pose>
+    </model>
+
+    <model name="pink_obstacle_25">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>21.954326 44.828901 0.000000 0.000000 0.000000 0.109536</pose>
+    </model>
+
+    <model name="pink_obstacle_26">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>26.239358 43.642397 0.000000 0.000000 0.000000 1.543481</pose>
+    </model>
+
+    <model name="pink_obstacle_27">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>34.528546 43.002833 0.000000 0.000000 0.000000 1.505570</pose>
+    </model>
+
+    <model name="pink_obstacle_28">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>45.614633 45.600654 0.000000 0.000000 0.000000 0.271461</pose>
+    </model>
+
+    <model name="pink_obstacle_29">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>38.213255 12.392197 0.000000 0.000000 0.000000 0.170657</pose>
+    </model>
+
+    <model name="pink_obstacle_30">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>26.270959 5.646057 0.000000 0.000000 0.000000 1.343711</pose>
+    </model>
+
+    <model name="pink_obstacle_31">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>44.995047 33.497483 0.000000 0.000000 0.000000 0.171649</pose>
+    </model>
+
+    <model name="pink_obstacle_32">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>30.673199 7.057635 0.000000 0.000000 0.000000 1.008725</pose>
+    </model>
+
+    <model name="pink_obstacle_33">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>14.882845 29.099922 0.000000 0.000000 0.000000 1.444165</pose>
+    </model>
+
+    <model name="pink_obstacle_34">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>44.245102 3.132169 0.000000 0.000000 0.000000 1.464915</pose>
+    </model>
+
+    <model name="pink_obstacle_35">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>48.622352 21.224300 0.000000 0.000000 0.000000 0.298839</pose>
+    </model>
+
+    <model name="pink_obstacle_36">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>0.157791 3.839870 0.000000 0.000000 0.000000 0.723013</pose>
+    </model>
+
+    <model name="pink_obstacle_37">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>35.558248 34.979017 0.000000 0.000000 0.000000 0.773034</pose>
+    </model>
+
+    <model name="pink_obstacle_38">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>37.311109 12.733483 0.000000 0.000000 0.000000 1.468015</pose>
+    </model>
+
+    <model name="pink_obstacle_39">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>17.578345 42.427796 0.000000 0.000000 0.000000 0.695136</pose>
+    </model>
+
+    <model name="pink_obstacle_40">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>7.890580 22.698709 0.000000 0.000000 0.000000 1.200527</pose>
+    </model>
+
+    <model name="pink_obstacle_41">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>49.275049 16.746077 0.000000 0.000000 0.000000 1.556272</pose>
+    </model>
+
+    <model name="pink_obstacle_42">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>32.931658 41.972014 0.000000 0.000000 0.000000 0.552367</pose>
+    </model>
+
+    <model name="pink_obstacle_43">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>21.391866 49.494206 0.000000 0.000000 0.000000 0.591893</pose>
+    </model>
+
+    <model name="pink_obstacle_44">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>18.029628 30.663246 0.000000 0.000000 0.000000 0.733205</pose>
+    </model>
+
+    <model name="pink_obstacle_45">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>43.009513 0.783422 0.000000 0.000000 0.000000 1.050593</pose>
+    </model>
+
+    <model name="pink_obstacle_46">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>31.655242 36.864281 0.000000 0.000000 0.000000 0.145395</pose>
+    </model>
+
+    <model name="pink_obstacle_47">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>14.123667 30.552424 0.000000 0.000000 0.000000 0.915147</pose>
+    </model>
+
+    <model name="pink_obstacle_48">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>35.624526 4.490483 0.000000 0.000000 0.000000 1.271574</pose>
+    </model>
+
+    <model name="pink_obstacle_49">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>2.148447 32.935214 0.000000 0.000000 0.000000 0.612180</pose>
+    </model>
+
+    <model name="pink_obstacle_50">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>42.441796 24.848932 0.000000 0.000000 0.000000 0.249806</pose>
+    </model>
+
+    <model name="pink_obstacle_51">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>46.694666 32.026817 0.000000 0.000000 0.000000 0.428320</pose>
+    </model>
+
+    <model name="pink_obstacle_52">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>2.228616 49.973922 0.000000 0.000000 0.000000 0.877901</pose>
+    </model>
+
+    <model name="pink_obstacle_53">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>5.076823 31.284455 0.000000 0.000000 0.000000 1.422082</pose>
+    </model>
+
+    <model name="pink_obstacle_54">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>29.075158 34.746290 0.000000 0.000000 0.000000 1.487773</pose>
+    </model>
+
+    <model name="pink_obstacle_55">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>22.684777 41.157548 0.000000 0.000000 0.000000 0.947046</pose>
+    </model>
+
+    <model name="pink_obstacle_56">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>12.340411 16.566231 0.000000 0.000000 0.000000 1.392084</pose>
+    </model>
+
+    <model name="pink_obstacle_57">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>5.016942 47.967763 0.000000 0.000000 0.000000 1.103176</pose>
+    </model>
+
+    <model name="pink_obstacle_58">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>6.889982 19.802492 0.000000 0.000000 0.000000 1.227516</pose>
+    </model>
+
+    <model name="pink_obstacle_59">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>40.533601 8.990969 0.000000 0.000000 0.000000 0.069204</pose>
+    </model>
+
+    <model name="pink_obstacle_60">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>22.639239 14.276116 0.000000 0.000000 0.000000 1.467688</pose>
+    </model>
+
+    <model name="pink_obstacle_61">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>47.919360 21.495955 0.000000 0.000000 0.000000 1.208888</pose>
+    </model>
+
+    <model name="pink_obstacle_62">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>6.314862 14.063042 0.000000 0.000000 0.000000 0.470878</pose>
+    </model>
+
+    <model name="pink_obstacle_63">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>45.221972 48.220013 0.000000 0.000000 0.000000 1.045637</pose>
+    </model>
+
+    <model name="pink_obstacle_64">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>47.178215 1.724725 0.000000 0.000000 0.000000 1.505804</pose>
+    </model>
+
+    <model name="pink_obstacle_65">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>44.575419 47.018364 0.000000 0.000000 0.000000 1.060247</pose>
+    </model>
+
+    <model name="pink_obstacle_66">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>28.963638 35.628640 0.000000 0.000000 0.000000 0.936516</pose>
+    </model>
+
+    <model name="pink_obstacle_67">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>27.705495 28.773049 0.000000 0.000000 0.000000 0.468792</pose>
+    </model>
+
+    <model name="pink_obstacle_68">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>7.399809 2.984617 0.000000 0.000000 0.000000 1.520833</pose>
+    </model>
+
+    <model name="pink_obstacle_69">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>20.948933 16.931900 0.000000 0.000000 0.000000 1.295354</pose>
+    </model>
+
+    <model name="pink_obstacle_70">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>42.434484 0.684296 0.000000 0.000000 0.000000 0.932819</pose>
+    </model>
+
+    <model name="pink_obstacle_71">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>21.972365 3.522357 0.000000 0.000000 0.000000 1.115094</pose>
+    </model>
+
+    <model name="pink_obstacle_72">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>20.669353 16.570001 0.000000 0.000000 0.000000 0.169968</pose>
+    </model>
+
+    <model name="pink_obstacle_73">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>22.314637 20.483074 0.000000 0.000000 0.000000 0.503202</pose>
+    </model>
+
+    <model name="pink_obstacle_74">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>49.596477 27.585826 0.000000 0.000000 0.000000 1.037128</pose>
+    </model>
+
+    <model name="pink_obstacle_75">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>35.682502 7.174922 0.000000 0.000000 0.000000 0.496081</pose>
+    </model>
+
+    <model name="pink_obstacle_76">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>23.734508 32.006437 0.000000 0.000000 0.000000 0.382874</pose>
+    </model>
+
+    <model name="pink_obstacle_77">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>22.710639 17.091873 0.000000 0.000000 0.000000 1.195589</pose>
+    </model>
+
+    <model name="pink_obstacle_78">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>3.549062 40.894857 0.000000 0.000000 0.000000 0.327225</pose>
+    </model>
+
+    <model name="pink_obstacle_79">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>12.902276 40.416557 0.000000 0.000000 0.000000 1.496644</pose>
+    </model>
+
+    <model name="pink_obstacle_80">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>42.911288 25.352700 0.000000 0.000000 0.000000 1.487911</pose>
+    </model>
+
+    <model name="pink_obstacle_81">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>4.468319 13.500847 0.000000 0.000000 0.000000 0.617324</pose>
+    </model>
+
+    <model name="pink_obstacle_82">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>31.213095 30.040906 0.000000 0.000000 0.000000 0.212151</pose>
+    </model>
+
+    <model name="pink_obstacle_83">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>1.661477 49.101641 0.000000 0.000000 0.000000 0.733640</pose>
+    </model>
+
+    <model name="pink_obstacle_84">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>44.332322 25.063218 0.000000 0.000000 0.000000 0.015285</pose>
+    </model>
+
+    <model name="pink_obstacle_85">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>20.250692 44.642433 0.000000 0.000000 0.000000 1.529957</pose>
+    </model>
+
+    <model name="pink_obstacle_86">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>48.087483 19.835816 0.000000 0.000000 0.000000 1.484623</pose>
+    </model>
+
+    <model name="pink_obstacle_87">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>17.074215 15.009367 0.000000 0.000000 0.000000 1.136625</pose>
+    </model>
+
+    <model name="pink_obstacle_88">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>49.916037 13.990475 0.000000 0.000000 0.000000 0.141675</pose>
+    </model>
+
+    <model name="pink_obstacle_89">
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.000000 1.000000 2.000000</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+      <pose>24.496072 43.830662 0.000000 0.000000 0.000000 0.963306</pose>
+    </model>
+
+    <actor name="actor1">
+      <pose>0.0 0.0 1.25 0 0 0</pose>
+      <skin>
+        <filename>walk-green.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk-green.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor1_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>0.3</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <!-- weights -->
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>0.0</obstacle_weight> <!--10.0-->
+        <social_weight>0.0</social_weight> <!--2.1-->
+        <group_gaze_weight>0.0</group_gaze_weight>
+        <group_coh_weight>0.0</group_coh_weight>
+        <group_rep_weight>0.0</group_rep_weight>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>false</cyclic>
+      <waypoint>0.050000 0.0000001.25</waypoint>
+
+      <waypoint>0.250000 0.0000001.25</waypoint>
+
+      <waypoint>0.400000 0.0000001.25</waypoint>
+
+      <waypoint>0.600000 0.0000001.25</waypoint>
+
+      <waypoint>0.750000 0.0000001.25</waypoint>
+
+      <waypoint>0.950000 0.0000001.25</waypoint>
+
+      <waypoint>1.100000 0.0000001.25</waypoint>
+
+      <waypoint>1.300000 0.0000001.25</waypoint>
+
+      <waypoint>1.450000 0.0000001.25</waypoint>
+
+      <waypoint>1.650000 0.0000001.25</waypoint>
+
+      <waypoint>1.800000 0.0000001.25</waypoint>
+
+      <waypoint>2.000000 0.0000001.25</waypoint>
+
+      <waypoint>2.150000 0.0000001.25</waypoint>
+
+      <waypoint>2.350000 0.0000001.25</waypoint>
+
+      <waypoint>2.500000 0.0000001.25</waypoint>
+
+      <waypoint>2.700000 0.0000001.25</waypoint>
+
+      <waypoint>2.850000 0.0000001.25</waypoint>
+
+      <waypoint>3.050000 0.0000001.25</waypoint>
+
+      <waypoint>3.200000 0.0000001.25</waypoint>
+
+      <waypoint>3.400000 0.0000001.25</waypoint>
+
+      <waypoint>3.550000 0.0000001.25</waypoint>
+
+      <waypoint>3.750000 0.0000001.25</waypoint>
+
+      <waypoint>3.900000 0.0000001.25</waypoint>
+
+      <waypoint>4.100000 0.0000001.25</waypoint>
+
+      <waypoint>4.250000 0.0000001.25</waypoint>
+
+      <waypoint>4.400000 0.0000001.25</waypoint>
+
+      <waypoint>4.550000 0.0000001.25</waypoint>
+
+      <waypoint>4.700000 0.0000001.25</waypoint>
+
+      <waypoint>4.900000 0.0000001.25</waypoint>
+
+      <waypoint>5.050000 0.0000001.25</waypoint>
+
+      <waypoint>5.200000 0.0000001.25</waypoint>
+
+      <waypoint>5.350000 0.0000001.25</waypoint>
+
+      <waypoint>5.500000 0.0000001.25</waypoint>
+
+      <waypoint>5.650000 0.0000001.25</waypoint>
+
+      <waypoint>5.800000 0.0000001.25</waypoint>
+
+      <waypoint>5.950000 0.0000001.25</waypoint>
+
+      <waypoint>6.100000 0.0000001.25</waypoint>
+
+      <waypoint>6.300000 0.0000001.25</waypoint>
+
+      <waypoint>6.450000 0.0000001.25</waypoint>
+
+      <waypoint>6.600000 0.0000001.25</waypoint>
+
+      <waypoint>6.750000 0.0000001.25</waypoint>
+
+      <waypoint>6.900000 0.0000001.25</waypoint>
+
+      <waypoint>7.050000 0.0000001.25</waypoint>
+
+      <waypoint>7.200000 0.0000001.25</waypoint>
+
+      <waypoint>7.350000 0.0000001.25</waypoint>
+
+      <waypoint>7.550000 0.0000001.25</waypoint>
+
+      <waypoint>7.700000 0.0000001.25</waypoint>
+
+      <waypoint>7.850000 0.0000001.25</waypoint>
+
+      <waypoint>8.000000 0.0000001.25</waypoint>
+
+      <waypoint>8.150000 0.0000001.25</waypoint>
+
+      <waypoint>8.350000 0.0000001.25</waypoint>
+
+      <waypoint>8.600000 0.0000001.25</waypoint>
+
+      <waypoint>8.800000 0.0000001.25</waypoint>
+
+      <waypoint>9.050000 0.0000001.25</waypoint>
+
+      <waypoint>9.250000 0.0000001.25</waypoint>
+
+      <waypoint>9.500000 0.0000001.25</waypoint>
+
+      <waypoint>9.700000 0.0000001.25</waypoint>
+
+      <waypoint>9.950000 0.0000001.25</waypoint>
+
+      <waypoint>10.150000 0.0000001.25</waypoint>
+
+      <waypoint>10.350000 0.0000001.25</waypoint>
+
+      <waypoint>10.600000 0.0000001.25</waypoint>
+
+      <waypoint>10.800000 0.0000001.25</waypoint>
+
+      <waypoint>11.050000 0.0000001.25</waypoint>
+
+      <waypoint>11.250000 0.0000001.25</waypoint>
+
+      <waypoint>11.500000 0.0000001.25</waypoint>
+
+      <waypoint>11.700000 0.0000001.25</waypoint>
+
+      <waypoint>11.950000 0.0000001.25</waypoint>
+
+      <waypoint>12.150000 0.0000001.25</waypoint>
+
+      <waypoint>12.350000 0.0000001.25</waypoint>
+
+      <waypoint>12.600000 0.0000001.25</waypoint>
+
+      <waypoint>12.800000 0.0000001.25</waypoint>
+
+      <waypoint>13.050000 0.0000001.25</waypoint>
+
+      <waypoint>13.250000 0.0000001.25</waypoint>
+
+      <waypoint>13.500000 0.0000001.25</waypoint>
+
+      <waypoint>13.700000 0.0000001.25</waypoint>
+
+      <waypoint>13.950000 0.0000001.25</waypoint>
+
+      <waypoint>14.150000 0.0000001.25</waypoint>
+
+      <waypoint>14.350000 0.0000001.25</waypoint>
+
+      <waypoint>14.600000 0.0000001.25</waypoint>
+
+      <waypoint>14.800000 0.0000001.25</waypoint>
+
+      <waypoint>15.050000 0.0000001.25</waypoint>
+
+      <waypoint>15.250000 0.0000001.25</waypoint>
+
+      <waypoint>15.500000 0.0000001.25</waypoint>
+
+      <waypoint>15.700000 0.0000001.25</waypoint>
+
+      <waypoint>15.950000 0.0000001.25</waypoint>
+
+      <waypoint>16.150000 0.0000001.25</waypoint>
+
+      <waypoint>16.400000 0.0000001.25</waypoint>
+
+      <waypoint>16.650000 0.0000001.25</waypoint>
+
+      <waypoint>16.900000 0.0000001.25</waypoint>
+
+      <waypoint>17.150000 0.0000001.25</waypoint>
+
+      <waypoint>17.400000 0.0000001.25</waypoint>
+
+      <waypoint>17.650000 0.0000001.25</waypoint>
+
+      <waypoint>17.900000 0.0000001.25</waypoint>
+
+      <waypoint>18.150000 0.0000001.25</waypoint>
+
+      <waypoint>18.400000 0.0000001.25</waypoint>
+
+      <waypoint>18.650000 0.0000001.25</waypoint>
+
+      <waypoint>18.899497 0.0095041.25</waypoint>
+
+      <waypoint>19.136050 0.0872231.25</waypoint>
+
+      <waypoint>19.336526 0.2348951.25</waypoint>
+
+      <waypoint>19.480893 0.4377641.25</waypoint>
+
+      <waypoint>19.554725 0.6755601.25</waypoint>
+
+      <waypoint>19.550645 0.9245201.25</waypoint>
+
+      <waypoint>19.477874 1.1633571.25</waypoint>
+
+      <waypoint>19.412342 1.3523161.25</waypoint>
+
+      <waypoint>19.330427 1.5885151.25</waypoint>
+
+      <waypoint>19.248512 1.8247141.25</waypoint>
+
+      <waypoint>19.166597 2.0609131.25</waypoint>
+
+      <waypoint>19.101065 2.2498721.25</waypoint>
+
+      <waypoint>19.019150 2.4860711.25</waypoint>
+
+      <waypoint>18.937236 2.7222701.25</waypoint>
+
+      <waypoint>18.871704 2.9112291.25</waypoint>
+
+      <waypoint>18.789789 3.1474281.25</waypoint>
+
+      <waypoint>18.707874 3.3836271.25</waypoint>
+
+      <waypoint>18.642342 3.5725861.25</waypoint>
+
+      <waypoint>18.560427 3.8087851.25</waypoint>
+
+      <waypoint>18.478512 4.0449841.25</waypoint>
+
+      <waypoint>18.396597 4.2811831.25</waypoint>
+
+      <waypoint>18.331065 4.4701431.25</waypoint>
+
+      <waypoint>18.249150 4.7063411.25</waypoint>
+
+      <waypoint>18.200001 4.8480611.25</waypoint>
+
+      <waypoint>18.150852 4.9897801.25</waypoint>
+
+      <waypoint>18.118086 5.0842601.25</waypoint>
+
+      <waypoint>18.068937 5.2259791.25</waypoint>
+
+      <waypoint>18.022819 5.3686431.25</waypoint>
+
+      <waypoint>18.001416 5.5169051.25</waypoint>
+
+      <waypoint>18.008469 5.6665371.25</waypoint>
+
+      <waypoint>18.028896 5.7643771.25</waypoint>
+
+      <waypoint>18.082301 5.9043321.25</waypoint>
+
+      <waypoint>18.161236 6.0316461.25</waypoint>
+
+      <waypoint>18.248206 6.1538601.25</waypoint>
+
+      <waypoint>18.335177 6.2760741.25</waypoint>
+
+      <waypoint>18.393157 6.3575491.25</waypoint>
+
+      <waypoint>18.480127 6.4797631.25</waypoint>
+
+      <waypoint>18.567097 6.6019771.25</waypoint>
+
+      <waypoint>18.654068 6.7241901.25</waypoint>
+
+      <waypoint>18.712048 6.8056661.25</waypoint>
+
+      <waypoint>18.799018 6.9278801.25</waypoint>
+
+      <waypoint>18.885988 7.0500931.25</waypoint>
+
+      <waypoint>18.972959 7.1723071.25</waypoint>
+
+      <waypoint>19.059929 7.2945201.25</waypoint>
+
+      <waypoint>19.117909 7.3759961.25</waypoint>
+
+      <waypoint>19.204879 7.4982101.25</waypoint>
+
+      <waypoint>19.291850 7.6204231.25</waypoint>
+
+      <waypoint>19.378820 7.7426371.25</waypoint>
+
+      <waypoint>19.465790 7.8648511.25</waypoint>
+
+      <waypoint>19.523770 7.9463261.25</waypoint>
+
+      <waypoint>19.610741 8.0685401.25</waypoint>
+
+      <waypoint>19.697711 8.1907541.25</waypoint>
+
+      <waypoint>19.813671 8.3537051.25</waypoint>
+
+      <waypoint>19.958622 8.5573951.25</waypoint>
+
+      <waypoint>20.074582 8.7203461.25</waypoint>
+
+      <waypoint>20.190543 8.8832981.25</waypoint>
+
+      <waypoint>20.306503 9.0462491.25</waypoint>
+
+      <waypoint>20.451453 9.2499391.25</waypoint>
+
+      <waypoint>20.567414 9.4128901.25</waypoint>
+
+      <waypoint>20.683374 9.5758421.25</waypoint>
+
+      <waypoint>20.799335 9.7387931.25</waypoint>
+
+      <waypoint>20.944285 9.9424821.25</waypoint>
+
+      <waypoint>21.060245 10.1054341.25</waypoint>
+
+      <waypoint>21.176206 10.2683851.25</waypoint>
+
+      <waypoint>21.292166 10.4313371.25</waypoint>
+
+      <waypoint>21.437117 10.6350261.25</waypoint>
+
+      <waypoint>21.553077 10.7979781.25</waypoint>
+
+      <waypoint>21.669037 10.9609291.25</waypoint>
+
+      <waypoint>21.784998 11.1238811.25</waypoint>
+
+      <waypoint>21.929948 11.3275701.25</waypoint>
+
+      <waypoint>22.045908 11.4905221.25</waypoint>
+
+      <waypoint>22.140330 11.6068151.25</waypoint>
+
+      <waypoint>22.255061 11.7031301.25</waypoint>
+
+      <waypoint>22.385950 11.7759831.25</waypoint>
+
+      <waypoint>22.479868 11.8101791.25</waypoint>
+
+      <waypoint>22.626957 11.8385381.25</waypoint>
+
+      <waypoint>22.776857 11.8417101.25</waypoint>
+
+      <waypoint>22.926857 11.8417101.25</waypoint>
+
+      <waypoint>23.076857 11.8417101.25</waypoint>
+
+      <waypoint>23.226857 11.8417101.25</waypoint>
+
+      <waypoint>23.376857 11.8417101.25</waypoint>
+
+      <waypoint>23.476857 11.8417101.25</waypoint>
+
+      <waypoint>23.626857 11.8417101.25</waypoint>
+
+      <waypoint>23.776857 11.8417101.25</waypoint>
+
+      <waypoint>23.926857 11.8417101.25</waypoint>
+
+      <waypoint>24.076857 11.8417101.25</waypoint>
+
+      <waypoint>24.226857 11.8417101.25</waypoint>
+
+      <waypoint>24.376857 11.8417101.25</waypoint>
+
+      <waypoint>24.476857 11.8417101.25</waypoint>
+
+      <waypoint>24.626857 11.8417101.25</waypoint>
+
+      <waypoint>24.776857 11.8417101.25</waypoint>
+
+      <waypoint>24.926857 11.8417101.25</waypoint>
+
+      <waypoint>25.076353 11.8512141.25</waypoint>
+
+      <waypoint>25.221348 11.8888481.25</waypoint>
+
+      <waypoint>25.356595 11.9532501.25</waypoint>
+
+      <waypoint>25.438910 12.0099441.25</waypoint>
+
+      <waypoint>25.547299 12.1133441.25</waypoint>
+
+      <waypoint>25.636795 12.2336361.25</waypoint>
+
+      <waypoint>25.723765 12.3558501.25</waypoint>
+
+      <waypoint>25.810736 12.4780631.25</waypoint>
+
+      <waypoint>25.897706 12.6002771.25</waypoint>
+
+      <waypoint>25.984676 12.7224911.25</waypoint>
+
+      <waypoint>26.071646 12.8447041.25</waypoint>
+
+      <waypoint>26.187607 13.0076561.25</waypoint>
+
+      <waypoint>26.274577 13.1298691.25</waypoint>
+
+      <waypoint>26.361547 13.2520831.25</waypoint>
+
+      <waypoint>26.448518 13.3742971.25</waypoint>
+
+      <waypoint>26.535488 13.4965101.25</waypoint>
+
+      <waypoint>26.622458 13.6187241.25</waypoint>
+
+      <waypoint>26.709428 13.7409371.25</waypoint>
+
+      <waypoint>26.796399 13.8631511.25</waypoint>
+
+      <waypoint>26.912359 14.0261031.25</waypoint>
+
+      <waypoint>26.999329 14.1483161.25</waypoint>
+
+      <waypoint>27.086300 14.2705301.25</waypoint>
+
+      <waypoint>27.173270 14.3927431.25</waypoint>
+
+      <waypoint>27.260240 14.5149571.25</waypoint>
+
+      <waypoint>27.347210 14.6371711.25</waypoint>
+
+      <waypoint>27.434181 14.7593841.25</waypoint>
+
+      <waypoint>27.521151 14.8815981.25</waypoint>
+
+      <waypoint>27.608121 15.0038121.25</waypoint>
+
+      <waypoint>27.724082 15.1667631.25</waypoint>
+
+      <waypoint>27.811052 15.2889771.25</waypoint>
+
+      <waypoint>27.898022 15.4111901.25</waypoint>
+
+      <waypoint>27.984992 15.5334041.25</waypoint>
+
+      <waypoint>28.071963 15.6556181.25</waypoint>
+
+      <waypoint>28.216913 15.8593071.25</waypoint>
+
+      <waypoint>28.361864 16.0629961.25</waypoint>
+
+      <waypoint>28.477824 16.2259481.25</waypoint>
+
+      <waypoint>28.622774 16.4296371.25</waypoint>
+
+      <waypoint>28.767725 16.6333271.25</waypoint>
+
+      <waypoint>28.912675 16.8370161.25</waypoint>
+
+      <waypoint>29.028636 16.9999681.25</waypoint>
+
+      <waypoint>29.173586 17.2036571.25</waypoint>
+
+      <waypoint>29.318537 17.4073461.25</waypoint>
+
+      <waypoint>29.463487 17.6110361.25</waypoint>
+
+      <waypoint>29.579447 17.7739871.25</waypoint>
+
+      <waypoint>29.724398 17.9776771.25</waypoint>
+
+      <waypoint>29.869348 18.1813661.25</waypoint>
+
+      <waypoint>30.014299 18.3850551.25</waypoint>
+
+      <waypoint>30.130259 18.5480071.25</waypoint>
+
+      <waypoint>30.275210 18.7516961.25</waypoint>
+
+      <waypoint>30.420160 18.9553861.25</waypoint>
+
+      <waypoint>30.507130 19.0775991.25</waypoint>
+
+      <waypoint>30.565111 19.1590751.25</waypoint>
+
+      <waypoint>30.652081 19.2812891.25</waypoint>
+
+      <waypoint>30.710061 19.3627641.25</waypoint>
+
+      <waypoint>30.797031 19.4849781.25</waypoint>
+
+      <waypoint>30.855011 19.5664541.25</waypoint>
+
+      <waypoint>30.941982 19.6886671.25</waypoint>
+
+      <waypoint>30.999962 19.7701431.25</waypoint>
+
+      <waypoint>31.086932 19.8923571.25</waypoint>
+
+      <waypoint>31.144912 19.9738331.25</waypoint>
+
+      <waypoint>31.231883 20.0960461.25</waypoint>
+
+      <waypoint>31.289863 20.1775221.25</waypoint>
+
+      <waypoint>31.376833 20.2997361.25</waypoint>
+
+      <waypoint>31.434813 20.3812111.25</waypoint>
+
+      <waypoint>31.521784 20.5034251.25</waypoint>
+
+      <waypoint>31.608754 20.6256391.25</waypoint>
+
+      <waypoint>31.666734 20.7071141.25</waypoint>
+
+      <waypoint>31.753704 20.8293281.25</waypoint>
+
+      <waypoint>31.811684 20.9108041.25</waypoint>
+
+      <waypoint>31.898655 21.0330171.25</waypoint>
+
+      <waypoint>31.956635 21.1144931.25</waypoint>
+
+      <waypoint>32.043605 21.2367071.25</waypoint>
+
+      <waypoint>32.101585 21.3181831.25</waypoint>
+
+      <waypoint>32.188556 21.4403961.25</waypoint>
+
+      <waypoint>32.246536 21.5218721.25</waypoint>
+
+      <waypoint>32.333506 21.6440861.25</waypoint>
+
+      <waypoint>32.391486 21.7255611.25</waypoint>
+
+      <waypoint>32.478457 21.8477751.25</waypoint>
+
+      <waypoint>32.536437 21.9292511.25</waypoint>
+
+      <waypoint>32.623407 22.0514641.25</waypoint>
+
+      <waypoint>32.681387 22.1329401.25</waypoint>
+
+      <waypoint>32.768357 22.2551541.25</waypoint>
+
+      <waypoint>32.884318 22.4181051.25</waypoint>
+
+      <waypoint>33.000278 22.5810571.25</waypoint>
+
+      <waypoint>33.116239 22.7440081.25</waypoint>
+
+      <waypoint>33.232199 22.9069601.25</waypoint>
+
+      <waypoint>33.348159 23.0699111.25</waypoint>
+
+      <waypoint>33.464120 23.2328631.25</waypoint>
+
+      <waypoint>33.580080 23.3958141.25</waypoint>
+
+      <waypoint>33.696040 23.5587661.25</waypoint>
+
+      <waypoint>33.812001 23.7217171.25</waypoint>
+
+      <waypoint>33.927961 23.8846691.25</waypoint>
+
+      <waypoint>34.043921 24.0476201.25</waypoint>
+
+      <waypoint>34.159882 24.2105721.25</waypoint>
+
+      <waypoint>34.275842 24.3735231.25</waypoint>
+
+      <waypoint>34.391803 24.5364751.25</waypoint>
+
+      <waypoint>34.507763 24.6994261.25</waypoint>
+
+      <waypoint>34.623723 24.8623781.25</waypoint>
+
+      <waypoint>34.739684 25.0253291.25</waypoint>
+
+      <waypoint>34.855644 25.1882811.25</waypoint>
+
+      <waypoint>34.971604 25.3512321.25</waypoint>
+
+      <waypoint>35.087565 25.5141841.25</waypoint>
+
+      <waypoint>35.203525 25.6771351.25</waypoint>
+
+      <waypoint>35.319486 25.8400871.25</waypoint>
+
+      <waypoint>35.464436 26.0437761.25</waypoint>
+
+      <waypoint>35.580396 26.2067281.25</waypoint>
+
+      <waypoint>35.696357 26.3696791.25</waypoint>
+
+      <waypoint>35.812317 26.5326311.25</waypoint>
+
+      <waypoint>35.928277 26.6955821.25</waypoint>
+
+      <waypoint>36.073228 26.8992721.25</waypoint>
+
+      <waypoint>36.189188 27.0622231.25</waypoint>
+
+      <waypoint>36.305149 27.2251751.25</waypoint>
+
+      <waypoint>36.421109 27.3881261.25</waypoint>
+
+      <waypoint>36.566059 27.5918161.25</waypoint>
+
+      <waypoint>36.682020 27.7547671.25</waypoint>
+
+      <waypoint>36.797980 27.9177191.25</waypoint>
+
+      <waypoint>36.913941 28.0806701.25</waypoint>
+
+      <waypoint>37.029901 28.2436221.25</waypoint>
+
+      <waypoint>37.174851 28.4473111.25</waypoint>
+
+      <waypoint>37.290812 28.6102621.25</waypoint>
+
+      <waypoint>37.406772 28.7732141.25</waypoint>
+
+      <waypoint>37.522732 28.9361661.25</waypoint>
+
+      <waypoint>37.609703 29.0583791.25</waypoint>
+
+      <waypoint>37.725663 29.2213311.25</waypoint>
+
+      <waypoint>37.841623 29.3842821.25</waypoint>
+
+      <waypoint>37.928594 29.5064961.25</waypoint>
+
+      <waypoint>38.044554 29.6694471.25</waypoint>
+
+      <waypoint>38.131524 29.7916611.25</waypoint>
+
+      <waypoint>38.247485 29.9546121.25</waypoint>
+
+      <waypoint>38.363445 30.1175641.25</waypoint>
+
+      <waypoint>38.450415 30.2397781.25</waypoint>
+
+      <waypoint>38.566376 30.4027291.25</waypoint>
+
+      <waypoint>38.682336 30.5656811.25</waypoint>
+
+      <waypoint>38.769306 30.6878941.25</waypoint>
+
+      <waypoint>38.885267 30.8508461.25</waypoint>
+
+      <waypoint>39.001227 31.0137971.25</waypoint>
+
+      <waypoint>39.088197 31.1360111.25</waypoint>
+
+      <waypoint>39.204158 31.2989621.25</waypoint>
+
+      <waypoint>39.291128 31.4211761.25</waypoint>
+
+      <waypoint>39.407088 31.5841281.25</waypoint>
+
+      <waypoint>39.523049 31.7470791.25</waypoint>
+
+      <waypoint>39.610019 31.8692931.25</waypoint>
+
+      <waypoint>39.725979 32.0322441.25</waypoint>
+
+      <waypoint>39.812950 32.1544581.25</waypoint>
+
+      <waypoint>39.899920 32.2766711.25</waypoint>
+
+      <waypoint>39.986890 32.3988851.25</waypoint>
+
+      <waypoint>40.044870 32.4803611.25</waypoint>
+
+      <waypoint>40.131841 32.6025741.25</waypoint>
+
+      <waypoint>40.218811 32.7247881.25</waypoint>
+
+      <waypoint>40.305781 32.8470021.25</waypoint>
+
+      <waypoint>40.392751 32.9692151.25</waypoint>
+
+      <waypoint>40.479722 33.0914291.25</waypoint>
+
+      <waypoint>40.566692 33.2136431.25</waypoint>
+
+      <waypoint>40.624672 33.2951181.25</waypoint>
+
+      <waypoint>40.711642 33.4173321.25</waypoint>
+
+      <waypoint>40.798613 33.5395461.25</waypoint>
+
+      <waypoint>40.885583 33.6617591.25</waypoint>
+
+      <waypoint>40.972553 33.7839731.25</waypoint>
+
+      <waypoint>41.059524 33.9061861.25</waypoint>
+
+      <waypoint>41.146494 34.0284001.25</waypoint>
+
+      <waypoint>41.204474 34.1098761.25</waypoint>
+
+      <waypoint>41.291444 34.2320901.25</waypoint>
+
+      <waypoint>41.378415 34.3543031.25</waypoint>
+
+      <waypoint>41.465385 34.4765171.25</waypoint>
+
+      <waypoint>41.552355 34.5987301.25</waypoint>
+
+      <waypoint>41.639325 34.7209441.25</waypoint>
+
+      <waypoint>41.726296 34.8431581.25</waypoint>
+
+      <waypoint>41.784276 34.9246331.25</waypoint>
+
+      <waypoint>41.871246 35.0468471.25</waypoint>
+
+      <waypoint>41.958216 35.1690611.25</waypoint>
+
+      <waypoint>42.045187 35.2912741.25</waypoint>
+
+      <waypoint>42.161147 35.4542261.25</waypoint>
+
+      <waypoint>42.248117 35.5764391.25</waypoint>
+
+      <waypoint>42.364078 35.7393911.25</waypoint>
+
+      <waypoint>42.480038 35.9023421.25</waypoint>
+
+      <waypoint>42.567008 36.0245561.25</waypoint>
+
+      <waypoint>42.682969 36.1875081.25</waypoint>
+
+      <waypoint>42.769939 36.3097211.25</waypoint>
+
+      <waypoint>42.885899 36.4726731.25</waypoint>
+
+      <waypoint>43.001860 36.6356241.25</waypoint>
+
+      <waypoint>43.088830 36.7578381.25</waypoint>
+
+      <waypoint>43.204790 36.9207891.25</waypoint>
+
+      <waypoint>43.320751 37.0837411.25</waypoint>
+
+      <waypoint>43.407721 37.2059551.25</waypoint>
+
+      <waypoint>43.523681 37.3689061.25</waypoint>
+
+      <waypoint>43.639642 37.5318581.25</waypoint>
+
+      <waypoint>43.726612 37.6540711.25</waypoint>
+
+      <waypoint>43.842572 37.8170231.25</waypoint>
+
+      <waypoint>43.929543 37.9392361.25</waypoint>
+
+      <waypoint>44.045503 38.1021881.25</waypoint>
+
+      <waypoint>44.161463 38.2651391.25</waypoint>
+
+      <waypoint>44.248434 38.3873531.25</waypoint>
+
+      <waypoint>44.364394 38.5503041.25</waypoint>
+
+      <waypoint>44.480354 38.7132561.25</waypoint>
+
+      <waypoint>44.625305 38.9169451.25</waypoint>
+
+      <waypoint>44.741265 39.0798971.25</waypoint>
+
+      <waypoint>44.886216 39.2835861.25</waypoint>
+
+      <waypoint>45.002176 39.4465381.25</waypoint>
+
+      <waypoint>45.147126 39.6502271.25</waypoint>
+
+      <waypoint>45.263087 39.8131791.25</waypoint>
+
+      <waypoint>45.408037 40.0168681.25</waypoint>
+
+      <waypoint>45.523998 40.1798201.25</waypoint>
+
+      <waypoint>45.639958 40.3427711.25</waypoint>
+
+      <waypoint>45.784908 40.5464601.25</waypoint>
+
+      <waypoint>45.900869 40.7094121.25</waypoint>
+
+      <waypoint>46.045819 40.9131011.25</waypoint>
+
+      <waypoint>46.161780 41.0760531.25</waypoint>
+
+      <waypoint>46.306730 41.2797421.25</waypoint>
+
+      <waypoint>46.422690 41.4426941.25</waypoint>
+
+      <waypoint>46.567641 41.6463831.25</waypoint>
+
+      <waypoint>46.683601 41.8093351.25</waypoint>
+
+      <waypoint>46.741581 41.8908101.25</waypoint>
+
+      <waypoint>46.828552 42.0130241.25</waypoint>
+
+      <waypoint>46.886532 42.0945001.25</waypoint>
+
+      <waypoint>46.973502 42.2167131.25</waypoint>
+
+      <waypoint>47.031482 42.2981891.25</waypoint>
+
+      <waypoint>47.118453 42.4204031.25</waypoint>
+
+      <waypoint>47.176433 42.5018791.25</waypoint>
+
+      <waypoint>47.263403 42.6240921.25</waypoint>
+
+      <waypoint>47.321383 42.7055681.25</waypoint>
+
+      <waypoint>47.415805 42.8218611.25</waypoint>
+
+      <waypoint>47.490278 42.8885221.25</waypoint>
+
+      <waypoint>47.572593 42.9452161.25</waypoint>
+
+      <waypoint>47.707841 43.0096181.25</waypoint>
+
+      <waypoint>47.803739 43.0377871.25</waypoint>
+
+      <waypoint>47.952332 43.0567561.25</waypoint>
+
+      <waypoint>48.052332 43.0567561.25</waypoint>
+
+      <waypoint>48.202332 43.0567561.25</waypoint>
+
+      <waypoint>48.302332 43.0567561.25</waypoint>
+
+      <waypoint>48.452332 43.0567561.25</waypoint>
+
+      <waypoint>48.552332 43.0567561.25</waypoint>
+
+      <waypoint>48.702332 43.0567561.25</waypoint>
+
+      <waypoint>48.802332 43.0567561.25</waypoint>
+
+      <waypoint>48.902332 43.0567561.25</waypoint>
+
+      <waypoint>49.052332 43.0567561.25</waypoint>
+
+      <waypoint>49.152332 43.0567561.25</waypoint>
+
+      <waypoint>49.302332 43.0567561.25</waypoint>
+
+      <waypoint>49.402332 43.0567561.25</waypoint>
+
+      <waypoint>49.552332 43.0567561.25</waypoint>
+
+      <waypoint>49.652332 43.0567561.25</waypoint>
+
+      <waypoint>49.802332 43.0567561.25</waypoint>
+
+      <waypoint>49.902332 43.0567561.25</waypoint>
+
+      <waypoint>50.052332 43.0567561.25</waypoint>
+
+      <waypoint>50.152332 43.0567561.25</waypoint>
+
+      <waypoint>50.302332 43.0567561.25</waypoint>
+
+      <waypoint>50.452332 43.0567561.25</waypoint>
+
+      <waypoint>50.602332 43.0567561.25</waypoint>
+
+      <waypoint>50.802332 43.0567561.25</waypoint>
+
+      <waypoint>50.952332 43.0567561.25</waypoint>
+
+      <waypoint>51.101828 43.0662601.25</waypoint>
+
+      <waypoint>51.246822 43.1038941.25</waypoint>
+
+      <waypoint>51.382070 43.1682961.25</waypoint>
+
+      <waypoint>51.502680 43.2571381.25</waypoint>
+
+      <waypoint>51.604290 43.3672061.25</waypoint>
+
+      <waypoint>51.703978 43.5400101.25</waypoint>
+
+      <waypoint>51.748397 43.6830711.25</waypoint>
+
+      <waypoint>51.764929 43.8319551.25</waypoint>
+
+      <waypoint>51.752976 43.9812761.25</waypoint>
+
+      <waypoint>51.729355 44.0783941.25</waypoint>
+
+      <waypoint>51.687547 44.1885501.25</waypoint>
+
+      <waypoint>51.645352 44.2985621.25</waypoint>
+
+      <waypoint>51.603157 44.4085741.25</waypoint>
+
+      <waypoint>51.546897 44.5552561.25</waypoint>
+
+      <waypoint>51.504702 44.6652681.25</waypoint>
+
+      <waypoint>51.462507 44.7752801.25</waypoint>
+
+      <waypoint>51.420312 44.8852921.25</waypoint>
+
+      <waypoint>51.378117 44.9953041.25</waypoint>
+
+      <waypoint>51.335922 45.1053161.25</waypoint>
+
+      <waypoint>51.293727 45.2153281.25</waypoint>
+
+      <waypoint>51.237467 45.3620101.25</waypoint>
+
+      <waypoint>51.195272 45.4720221.25</waypoint>
+
+      <waypoint>51.153077 45.5820341.25</waypoint>
+
+      <waypoint>51.110882 45.6920461.25</waypoint>
+
+      <waypoint>51.026492 45.9120701.25</waypoint>
+
+      <waypoint>50.956167 46.0954231.25</waypoint>
+
+      <waypoint>50.871777 46.3154471.25</waypoint>
+
+      <waypoint>50.787387 46.5354711.25</waypoint>
+
+      <waypoint>50.717062 46.7188241.25</waypoint>
+
+      <waypoint>50.632672 46.9388481.25</waypoint>
+
+      <waypoint>50.548282 47.1588711.25</waypoint>
+
+      <waypoint>50.477956 47.3422251.25</waypoint>
+
+      <waypoint>50.393566 47.5622481.25</waypoint>
+
+      <waypoint>50.309176 47.7822721.25</waypoint>
+
+      <waypoint>50.238851 47.9656251.25</waypoint>
+
+      <waypoint>50.154461 48.1856491.25</waypoint>
+
+      <waypoint>50.070071 48.4056731.25</waypoint>
+
+      <waypoint>49.999746 48.5890261.25</waypoint>
+
+      <waypoint>49.915356 48.8090501.25</waypoint>
+
+      <waypoint>49.830966 49.0290741.25</waypoint>
+
+      <waypoint>49.782633 49.2188891.25</waypoint>
+
+      <waypoint>49.788462 49.4535911.25</waypoint>
+
+      <waypoint>49.846179 49.6407631.25</waypoint>
+
+      <waypoint>49.924591 49.7765971.25</waypoint>
+
+      <waypoint>50.057807 49.9201871.25</waypoint>
+
+      <waypoint>50.222338 50.0264611.25</waypoint>
+
+      <waypoint>50.194349 50.0243571.25</waypoint>
+
+      <waypoint>50.000000 50.0000001.25</waypoint>
+
+        </trajectory>
+      </plugin>
+    </actor>
+
+  </world>
+</sdf>

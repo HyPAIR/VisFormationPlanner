@@ -1,0 +1,1817 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 104
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+        - /MarkerArray1
+        - /MarkerArray1/Namespaces1
+        - /Path_leader1
+        - /Path_diff21
+        - /Path_diff22
+        - /Path_car11
+        - /Map1
+        - /Marker1
+      Splitter Ratio: 0.5012468695640564
+    Tree Height: 337
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Name: Time
+    SyncMode: 0
+    SyncSource: ""
+Preferences:
+  PromptSaveOnExit: true
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: false
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: false
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /liom_test_vis
+      Name: MarkerArray
+      Namespaces:
+        Coarse Path: true
+        Footprint_0: true
+        Footprint_1: true
+        Footprint_2: true
+        cable00: true
+        cable01: true
+        cable010: true
+        cable0100: true
+        cable0101: true
+        cable0102: true
+        cable0103: true
+        cable0104: true
+        cable0105: true
+        cable0106: true
+        cable0107: true
+        cable0108: true
+        cable0109: true
+        cable011: true
+        cable0110: true
+        cable0111: true
+        cable0112: true
+        cable0113: true
+        cable0114: true
+        cable0115: true
+        cable0116: true
+        cable0117: true
+        cable0118: true
+        cable0119: true
+        cable012: true
+        cable0120: true
+        cable0121: true
+        cable0122: true
+        cable0123: true
+        cable0124: true
+        cable0125: true
+        cable0126: true
+        cable0127: true
+        cable0128: true
+        cable0129: true
+        cable013: true
+        cable0130: true
+        cable0131: true
+        cable0132: true
+        cable0133: true
+        cable0134: true
+        cable0135: true
+        cable0136: true
+        cable0137: true
+        cable0138: true
+        cable0139: true
+        cable014: true
+        cable0140: true
+        cable0141: true
+        cable0142: true
+        cable0143: true
+        cable0144: true
+        cable0145: true
+        cable0146: true
+        cable0147: true
+        cable0148: true
+        cable0149: true
+        cable015: true
+        cable0150: true
+        cable0151: true
+        cable0152: true
+        cable0153: true
+        cable0154: true
+        cable0155: true
+        cable0156: true
+        cable0157: true
+        cable0158: true
+        cable0159: true
+        cable016: true
+        cable0160: true
+        cable0161: true
+        cable0162: true
+        cable0163: true
+        cable0164: true
+        cable0165: true
+        cable0166: true
+        cable0167: true
+        cable0168: true
+        cable0169: true
+        cable017: true
+        cable0170: true
+        cable0171: true
+        cable0172: true
+        cable0173: true
+        cable0174: true
+        cable0175: true
+        cable0176: true
+        cable0177: true
+        cable0178: true
+        cable0179: true
+        cable018: true
+        cable0180: true
+        cable0181: true
+        cable0182: true
+        cable0183: true
+        cable0184: true
+        cable0185: true
+        cable0186: true
+        cable0187: true
+        cable0188: true
+        cable0189: true
+        cable019: true
+        cable0190: true
+        cable0191: true
+        cable0192: true
+        cable0193: true
+        cable0194: true
+        cable0195: true
+        cable0196: true
+        cable0197: true
+        cable0198: true
+        cable0199: true
+        cable02: true
+        cable020: true
+        cable0200: true
+        cable0201: true
+        cable0202: true
+        cable0203: true
+        cable0204: true
+        cable0205: true
+        cable0206: true
+        cable0207: true
+        cable0208: true
+        cable0209: true
+        cable021: true
+        cable0210: true
+        cable0211: true
+        cable0212: true
+        cable0213: true
+        cable0214: true
+        cable0215: true
+        cable0216: true
+        cable0217: true
+        cable0218: true
+        cable0219: true
+        cable022: true
+        cable0220: true
+        cable0221: true
+        cable0222: true
+        cable0223: true
+        cable0224: true
+        cable0225: true
+        cable0226: true
+        cable0227: true
+        cable0228: true
+        cable0229: true
+        cable023: true
+        cable0230: true
+        cable0231: true
+        cable0232: true
+        cable0233: true
+        cable0234: true
+        cable0235: true
+        cable0236: true
+        cable0237: true
+        cable0238: true
+        cable0239: true
+        cable024: true
+        cable0240: true
+        cable0241: true
+        cable0242: true
+        cable0243: true
+        cable0244: true
+        cable0245: true
+        cable0246: true
+        cable0247: true
+        cable0248: true
+        cable0249: true
+        cable025: true
+        cable0250: true
+        cable0251: true
+        cable0252: true
+        cable0253: true
+        cable0254: true
+        cable0255: true
+        cable0256: true
+        cable0257: true
+        cable0258: true
+        cable0259: true
+        cable026: true
+        cable0260: true
+        cable0261: true
+        cable0262: true
+        cable0263: true
+        cable0264: true
+        cable0265: true
+        cable0266: true
+        cable0267: true
+        cable0268: true
+        cable0269: true
+        cable027: true
+        cable0270: true
+        cable0271: true
+        cable0272: true
+        cable0273: true
+        cable0274: true
+        cable0275: true
+        cable0276: true
+        cable0277: true
+        cable0278: true
+        cable0279: true
+        cable028: true
+        cable0280: true
+        cable0281: true
+        cable0282: true
+        cable0283: true
+        cable0284: true
+        cable0285: true
+        cable0286: true
+        cable0287: true
+        cable0288: true
+        cable0289: true
+        cable029: true
+        cable0290: true
+        cable0291: true
+        cable0292: true
+        cable0293: true
+        cable0294: true
+        cable0295: true
+        cable0296: true
+        cable0297: true
+        cable0298: true
+        cable0299: true
+        cable03: true
+        cable030: true
+        cable0300: true
+        cable0301: true
+        cable0302: true
+        cable0303: true
+        cable0304: true
+        cable0305: true
+        cable0306: true
+        cable0307: true
+        cable0308: true
+        cable0309: true
+        cable031: true
+        cable0310: true
+        cable0311: true
+        cable0312: true
+        cable0313: true
+        cable0314: true
+        cable0315: true
+        cable0316: true
+        cable0317: true
+        cable0318: true
+        cable0319: true
+        cable032: true
+        cable0320: true
+        cable0321: true
+        cable0322: true
+        cable0323: true
+        cable0324: true
+        cable0325: true
+        cable0326: true
+        cable0327: true
+        cable0328: true
+        cable0329: true
+        cable033: true
+        cable0330: true
+        cable0331: true
+        cable0332: true
+        cable0333: true
+        cable0334: true
+        cable0335: true
+        cable0336: true
+        cable0337: true
+        cable0338: true
+        cable0339: true
+        cable034: true
+        cable0340: true
+        cable0341: true
+        cable0342: true
+        cable0343: true
+        cable0344: true
+        cable0345: true
+        cable0346: true
+        cable0347: true
+        cable0348: true
+        cable0349: true
+        cable035: true
+        cable0350: true
+        cable0351: true
+        cable0352: true
+        cable0353: true
+        cable0354: true
+        cable0355: true
+        cable0356: true
+        cable0357: true
+        cable0358: true
+        cable0359: true
+        cable036: true
+        cable0360: true
+        cable0361: true
+        cable0362: true
+        cable0363: true
+        cable0364: true
+        cable0365: true
+        cable0366: true
+        cable0367: true
+        cable0368: true
+        cable0369: true
+        cable037: true
+        cable0370: true
+        cable0371: true
+        cable0372: true
+        cable0373: true
+        cable0374: true
+        cable0375: true
+        cable0376: true
+        cable0377: true
+        cable0378: true
+        cable0379: true
+        cable038: true
+        cable0380: true
+        cable0381: true
+        cable0382: true
+        cable0383: true
+        cable0384: true
+        cable0385: true
+        cable0386: true
+        cable0387: true
+        cable0388: true
+        cable0389: true
+        cable039: true
+        cable0390: true
+        cable0391: true
+        cable0392: true
+        cable0393: true
+        cable0394: true
+        cable0395: true
+        cable0396: true
+        cable0397: true
+        cable0398: true
+        cable0399: true
+        cable04: true
+        cable040: true
+        cable0400: true
+        cable0401: true
+        cable0402: true
+        cable0403: true
+        cable0404: true
+        cable0405: true
+        cable0406: true
+        cable0407: true
+        cable0408: true
+        cable0409: true
+        cable041: true
+        cable0410: true
+        cable0411: true
+        cable0412: true
+        cable0413: true
+        cable0414: true
+        cable0415: true
+        cable0416: true
+        cable0417: true
+        cable0418: true
+        cable0419: true
+        cable042: true
+        cable0420: true
+        cable0421: true
+        cable0422: true
+        cable0423: true
+        cable0424: true
+        cable0425: true
+        cable0426: true
+        cable0427: true
+        cable0428: true
+        cable0429: true
+        cable043: true
+        cable044: true
+        cable045: true
+        cable046: true
+        cable047: true
+        cable048: true
+        cable049: true
+        cable05: true
+        cable050: true
+        cable051: true
+        cable052: true
+        cable053: true
+        cable054: true
+        cable055: true
+        cable056: true
+        cable057: true
+        cable058: true
+        cable059: true
+        cable06: true
+        cable060: true
+        cable061: true
+        cable062: true
+        cable063: true
+        cable064: true
+        cable065: true
+        cable066: true
+        cable067: true
+        cable068: true
+        cable069: true
+        cable07: true
+        cable070: true
+        cable071: true
+        cable072: true
+        cable073: true
+        cable074: true
+        cable075: true
+        cable076: true
+        cable077: true
+        cable078: true
+        cable079: true
+        cable08: true
+        cable080: true
+        cable081: true
+        cable082: true
+        cable083: true
+        cable084: true
+        cable085: true
+        cable086: true
+        cable087: true
+        cable088: true
+        cable089: true
+        cable09: true
+        cable090: true
+        cable091: true
+        cable092: true
+        cable093: true
+        cable094: true
+        cable095: true
+        cable096: true
+        cable097: true
+        cable098: true
+        cable099: true
+        cable1100: true
+        cable1101: true
+        cable1102: true
+        cable1103: true
+        cable1104: true
+        cable1105: true
+        cable1106: true
+        cable1107: true
+        cable1108: true
+        cable1109: true
+        cable1110: true
+        cable1111: true
+        cable1112: true
+        cable1113: true
+        cable1114: true
+        cable1115: true
+        cable1116: true
+        cable1117: true
+        cable1118: true
+        cable1119: true
+        cable1120: true
+        cable1121: true
+        cable1122: true
+        cable1123: true
+        cable1124: true
+        cable1125: true
+        cable1126: true
+        cable1127: true
+        cable1128: true
+        cable1129: true
+        cable1130: true
+        cable1131: true
+        cable1132: true
+        cable1133: true
+        cable1134: true
+        cable1135: true
+        cable1136: true
+        cable1137: true
+        cable1138: true
+        cable1139: true
+        cable1140: true
+        cable1141: true
+        cable1142: true
+        cable1143: true
+        cable1144: true
+        cable1145: true
+        cable1146: true
+        cable1147: true
+        cable1148: true
+        cable1149: true
+        cable1150: true
+        cable1151: true
+        cable1152: true
+        cable1153: true
+        cable1154: true
+        cable1155: true
+        cable1156: true
+        cable1157: true
+        cable1158: true
+        cable1159: true
+        cable1160: true
+        cable1161: true
+        cable1162: true
+        cable1163: true
+        cable1164: true
+        cable1165: true
+        cable1166: true
+        cable1176: true
+        cable1177: true
+        cable1178: true
+        cable1180: true
+        cable1181: true
+        cable1182: true
+        cable1183: true
+        cable1184: true
+        cable1185: true
+        cable1186: true
+        cable1187: true
+        cable1188: true
+        cable1189: true
+        cable1190: true
+        cable1191: true
+        cable1192: true
+        cable1193: true
+        cable1194: true
+        cable1195: true
+        cable1196: true
+        cable1197: true
+        cable1198: true
+        cable1199: true
+        cable12: true
+        cable1200: true
+        cable1201: true
+        cable1202: true
+        cable1203: true
+        cable1204: true
+        cable1205: true
+        cable1206: true
+        cable1207: true
+        cable1208: true
+        cable1209: true
+        cable1210: true
+        cable1211: true
+        cable1212: true
+        cable1213: true
+        cable1214: true
+        cable1215: true
+        cable1216: true
+        cable1217: true
+        cable1218: true
+        cable1219: true
+        cable1220: true
+        cable1221: true
+        cable1222: true
+        cable1223: true
+        cable1224: true
+        cable1225: true
+        cable1226: true
+        cable1227: true
+        cable1228: true
+        cable1229: true
+        cable123: true
+        cable1230: true
+        cable1231: true
+        cable1232: true
+        cable1233: true
+        cable1234: true
+        cable1235: true
+        cable1236: true
+        cable1237: true
+        cable1238: true
+        cable1239: true
+        cable124: true
+        cable1240: true
+        cable1241: true
+        cable1242: true
+        cable1243: true
+        cable1244: true
+        cable1245: true
+        cable1246: true
+        cable1247: true
+        cable1248: true
+        cable1249: true
+        cable125: true
+        cable1250: true
+        cable1251: true
+        cable1252: true
+        cable1253: true
+        cable1254: true
+        cable1255: true
+        cable1256: true
+        cable1257: true
+        cable1258: true
+        cable1259: true
+        cable126: true
+        cable1260: true
+        cable1261: true
+        cable1262: true
+        cable1263: true
+        cable1264: true
+        cable1265: true
+        cable1266: true
+        cable1267: true
+        cable1268: true
+        cable1269: true
+        cable127: true
+        cable1270: true
+        cable1271: true
+        cable1272: true
+        cable1273: true
+        cable1274: true
+        cable1275: true
+        cable1276: true
+        cable1277: true
+        cable1278: true
+        cable1279: true
+        cable128: true
+        cable1280: true
+        cable1281: true
+        cable1282: true
+        cable1283: true
+        cable1284: true
+        cable1285: true
+        cable1286: true
+        cable1287: true
+        cable1288: true
+        cable1289: true
+        cable129: true
+        cable1290: true
+        cable1291: true
+        cable1292: true
+        cable1293: true
+        cable1294: true
+        cable1295: true
+        cable1296: true
+        cable1297: true
+        cable1298: true
+        cable1299: true
+        cable13: true
+        cable130: true
+        cable1300: true
+        cable1301: true
+        cable1302: true
+        cable1303: true
+        cable1304: true
+        cable1305: true
+        cable1306: true
+        cable1307: true
+        cable1308: true
+        cable1309: true
+        cable131: true
+        cable1310: true
+        cable1311: true
+        cable1312: true
+        cable1313: true
+        cable1314: true
+        cable1315: true
+        cable1316: true
+        cable1317: true
+        cable1318: true
+        cable1319: true
+        cable132: true
+        cable1320: true
+        cable1321: true
+        cable1322: true
+        cable1323: true
+        cable1324: true
+        cable1325: true
+        cable1326: true
+        cable1327: true
+        cable1328: true
+        cable1329: true
+        cable133: true
+        cable1330: true
+        cable1331: true
+        cable1332: true
+        cable1333: true
+        cable1334: true
+        cable1335: true
+        cable1336: true
+        cable1337: true
+        cable1338: true
+        cable1339: true
+        cable134: true
+        cable1340: true
+        cable1341: true
+        cable1342: true
+        cable1343: true
+        cable1344: true
+        cable1345: true
+        cable1346: true
+        cable1347: true
+        cable1348: true
+        cable1349: true
+        cable135: true
+        cable1350: true
+        cable1351: true
+        cable1352: true
+        cable1353: true
+        cable1354: true
+        cable1355: true
+        cable1356: true
+        cable1357: true
+        cable1358: true
+        cable1359: true
+        cable136: true
+        cable1360: true
+        cable1361: true
+        cable1362: true
+        cable1363: true
+        cable1364: true
+        cable1365: true
+        cable1366: true
+        cable1367: true
+        cable1368: true
+        cable1369: true
+        cable137: true
+        cable1370: true
+        cable1371: true
+        cable1372: true
+        cable1373: true
+        cable1374: true
+        cable1375: true
+        cable1376: true
+        cable1377: true
+        cable1378: true
+        cable1379: true
+        cable138: true
+        cable1380: true
+        cable1381: true
+        cable1382: true
+        cable1383: true
+        cable1384: true
+        cable1385: true
+        cable1386: true
+        cable1387: true
+        cable1388: true
+        cable1389: true
+        cable139: true
+        cable1390: true
+        cable1391: true
+        cable1392: true
+        cable1393: true
+        cable1394: true
+        cable1395: true
+        cable1396: true
+        cable1397: true
+        cable1398: true
+        cable1399: true
+        cable14: true
+        cable140: true
+        cable1400: true
+        cable1401: true
+        cable1402: true
+        cable1403: true
+        cable1404: true
+        cable1405: true
+        cable1406: true
+        cable1407: true
+        cable1408: true
+        cable1409: true
+        cable141: true
+        cable1410: true
+        cable1411: true
+        cable1412: true
+        cable1413: true
+        cable1414: true
+        cable1415: true
+        cable1416: true
+        cable1417: true
+        cable1418: true
+        cable1419: true
+        cable142: true
+        cable1420: true
+        cable1421: true
+        cable1422: true
+        cable1423: true
+        cable1424: true
+        cable1425: true
+        cable1426: true
+        cable1427: true
+        cable1428: true
+        cable1429: true
+        cable143: true
+        cable144: true
+        cable145: true
+        cable146: true
+        cable147: true
+        cable148: true
+        cable149: true
+        cable15: true
+        cable150: true
+        cable151: true
+        cable152: true
+        cable153: true
+        cable154: true
+        cable155: true
+        cable156: true
+        cable157: true
+        cable158: true
+        cable159: true
+        cable16: true
+        cable160: true
+        cable161: true
+        cable162: true
+        cable163: true
+        cable164: true
+        cable165: true
+        cable166: true
+        cable167: true
+        cable168: true
+        cable169: true
+        cable17: true
+        cable170: true
+        cable171: true
+        cable172: true
+        cable173: true
+        cable174: true
+        cable175: true
+        cable176: true
+        cable177: true
+        cable178: true
+        cable179: true
+        cable18: true
+        cable180: true
+        cable181: true
+        cable182: true
+        cable183: true
+        cable184: true
+        cable185: true
+        cable186: true
+        cable187: true
+        cable188: true
+        cable189: true
+        cable19: true
+        cable190: true
+        cable191: true
+        cable192: true
+        cable193: true
+        cable194: true
+        cable195: true
+        cable196: true
+        cable197: true
+        cable198: true
+        cable199: true
+        cable21: true
+        cable210: true
+        cable2100: true
+        cable2101: true
+        cable2102: true
+        cable2103: true
+        cable2104: true
+        cable2105: true
+        cable2106: true
+        cable2107: true
+        cable2108: true
+        cable2109: true
+        cable211: true
+        cable2110: true
+        cable2111: true
+        cable2112: true
+        cable2113: true
+        cable2114: true
+        cable2115: true
+        cable2116: true
+        cable2117: true
+        cable2118: true
+        cable2119: true
+        cable212: true
+        cable2120: true
+        cable2121: true
+        cable2122: true
+        cable2123: true
+        cable2124: true
+        cable2125: true
+        cable2126: true
+        cable2127: true
+        cable2128: true
+        cable2129: true
+        cable213: true
+        cable2130: true
+        cable2131: true
+        cable2132: true
+        cable2133: true
+        cable2134: true
+        cable2135: true
+        cable2136: true
+        cable2137: true
+        cable2138: true
+        cable2139: true
+        cable214: true
+        cable2140: true
+        cable2141: true
+        cable2142: true
+        cable2143: true
+        cable2144: true
+        cable2145: true
+        cable2146: true
+        cable2147: true
+        cable2148: true
+        cable2149: true
+        cable215: true
+        cable2150: true
+        cable2151: true
+        cable2152: true
+        cable2153: true
+        cable2154: true
+        cable2155: true
+        cable2156: true
+        cable2157: true
+        cable2158: true
+        cable2159: true
+        cable216: true
+        cable2160: true
+        cable2161: true
+        cable2162: true
+        cable2163: true
+        cable2164: true
+        cable2165: true
+        cable2166: true
+        cable2167: true
+        cable2168: true
+        cable2169: true
+        cable217: true
+        cable2170: true
+        cable2171: true
+        cable2172: true
+        cable2173: true
+        cable2174: true
+        cable2175: true
+        cable2176: true
+        cable2177: true
+        cable2178: true
+        cable2179: true
+        cable218: true
+        cable2180: true
+        cable2181: true
+        cable2182: true
+        cable2183: true
+        cable2184: true
+        cable2185: true
+        cable2186: true
+        cable2187: true
+        cable2188: true
+        cable2189: true
+        cable219: true
+        cable2190: true
+        cable2191: true
+        cable2192: true
+        cable2193: true
+        cable2194: true
+        cable2195: true
+        cable2196: true
+        cable2197: true
+        cable2198: true
+        cable2199: true
+        cable22: true
+        cable220: true
+        cable2200: true
+        cable2201: true
+        cable2202: true
+        cable2203: true
+        cable2204: true
+        cable2205: true
+        cable2206: true
+        cable2207: true
+        cable221: true
+        cable222: true
+        cable223: true
+        cable2239: true
+        cable224: true
+        cable2240: true
+        cable2241: true
+        cable2242: true
+        cable2243: true
+        cable2244: true
+        cable2245: true
+        cable2246: true
+        cable2247: true
+        cable2248: true
+        cable2249: true
+        cable225: true
+        cable2250: true
+        cable2251: true
+        cable2252: true
+        cable2253: true
+        cable2254: true
+        cable2255: true
+        cable2256: true
+        cable2257: true
+        cable2258: true
+        cable2259: true
+        cable226: true
+        cable2260: true
+        cable2261: true
+        cable2262: true
+        cable2263: true
+        cable2264: true
+        cable2265: true
+        cable2266: true
+        cable2267: true
+        cable2268: true
+        cable2269: true
+        cable227: true
+        cable2270: true
+        cable2271: true
+        cable2272: true
+        cable2273: true
+        cable2274: true
+        cable2275: true
+        cable2276: true
+        cable2277: true
+        cable2278: true
+        cable2279: true
+        cable228: true
+        cable2280: true
+        cable2281: true
+        cable2282: true
+        cable2283: true
+        cable2284: true
+        cable2285: true
+        cable2286: true
+        cable2287: true
+        cable2288: true
+        cable2289: true
+        cable229: true
+        cable2290: true
+        cable2291: true
+        cable2292: true
+        cable2293: true
+        cable2294: true
+        cable2295: true
+        cable2296: true
+        cable2297: true
+        cable2298: true
+        cable2299: true
+        cable23: true
+        cable230: true
+        cable2300: true
+        cable2301: true
+        cable2302: true
+        cable2303: true
+        cable2304: true
+        cable2305: true
+        cable2306: true
+        cable2307: true
+        cable2308: true
+        cable2309: true
+        cable231: true
+        cable2310: true
+        cable2311: true
+        cable2312: true
+        cable2313: true
+        cable2314: true
+        cable2315: true
+        cable2316: true
+        cable2317: true
+        cable2318: true
+        cable2319: true
+        cable232: true
+        cable2320: true
+        cable2321: true
+        cable2322: true
+        cable2323: true
+        cable2324: true
+        cable2325: true
+        cable2326: true
+        cable2327: true
+        cable2328: true
+        cable2329: true
+        cable233: true
+        cable2330: true
+        cable2331: true
+        cable2332: true
+        cable2333: true
+        cable2334: true
+        cable2335: true
+        cable2336: true
+        cable2337: true
+        cable2338: true
+        cable2339: true
+        cable234: true
+        cable2340: true
+        cable2341: true
+        cable2342: true
+        cable2343: true
+        cable2344: true
+        cable2345: true
+        cable2346: true
+        cable2347: true
+        cable2348: true
+        cable2349: true
+        cable235: true
+        cable2350: true
+        cable2351: true
+        cable2352: true
+        cable2353: true
+        cable2354: true
+        cable2355: true
+        cable2356: true
+        cable2357: true
+        cable2358: true
+        cable2359: true
+        cable236: true
+        cable2360: true
+        cable2361: true
+        cable2362: true
+        cable2363: true
+        cable2364: true
+        cable2365: true
+        cable2366: true
+        cable2367: true
+        cable2368: true
+        cable2369: true
+        cable237: true
+        cable2370: true
+        cable2371: true
+        cable2372: true
+        cable2373: true
+        cable2374: true
+        cable2375: true
+        cable2376: true
+        cable2377: true
+        cable2378: true
+        cable2379: true
+        cable238: true
+        cable2380: true
+        cable2381: true
+        cable2382: true
+        cable2383: true
+        cable2384: true
+        cable2385: true
+        cable2386: true
+        cable2387: true
+        cable2388: true
+        cable2389: true
+        cable239: true
+        cable2390: true
+        cable2391: true
+        cable2392: true
+        cable2393: true
+        cable2394: true
+        cable2395: true
+        cable2396: true
+        cable2397: true
+        cable2398: true
+        cable2399: true
+        cable24: true
+        cable240: true
+        cable2400: true
+        cable2401: true
+        cable2402: true
+        cable2403: true
+        cable2404: true
+        cable2405: true
+        cable2406: true
+        cable2407: true
+        cable2408: true
+        cable2409: true
+        cable241: true
+        cable2410: true
+        cable2411: true
+        cable2412: true
+        cable2413: true
+        cable2414: true
+        cable2415: true
+        cable2416: true
+        cable2417: true
+        cable2418: true
+        cable2419: true
+        cable242: true
+        cable2420: true
+        cable2421: true
+        cable2422: true
+        cable2423: true
+        cable2424: true
+        cable2425: true
+        cable2426: true
+        cable2427: true
+        cable2428: true
+        cable2429: true
+        cable243: true
+        cable244: true
+        cable245: true
+        cable246: true
+        cable247: true
+        cable248: true
+        cable249: true
+        cable25: true
+        cable250: true
+        cable251: true
+        cable252: true
+        cable253: true
+        cable254: true
+        cable255: true
+        cable256: true
+        cable257: true
+        cable258: true
+        cable259: true
+        cable26: true
+        cable260: true
+        cable261: true
+        cable262: true
+        cable263: true
+        cable264: true
+        cable265: true
+        cable266: true
+        cable267: true
+        cable268: true
+        cable269: true
+        cable27: true
+        cable270: true
+        cable271: true
+        cable272: true
+        cable273: true
+        cable274: true
+        cable275: true
+        cable276: true
+        cable277: true
+        cable278: true
+        cable279: true
+        cable28: true
+        cable280: true
+        cable281: true
+        cable282: true
+        cable283: true
+        cable284: true
+        cable285: true
+        cable286: true
+        cable287: true
+        cable288: true
+        cable289: true
+        cable29: true
+        cable290: true
+        cable291: true
+        cable292: true
+        cable293: true
+        cable294: true
+        cable295: true
+        cable296: true
+        cable297: true
+        cable298: true
+        cable299: true
+      Queue Size: 1000
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 164; 0; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Path_leader
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Queue Size: 10
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /liom_test_path
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 78; 154; 6
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Path_diff2
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Queue Size: 10
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /liom_test_path0
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 78; 154; 6
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Path_diff2
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Queue Size: 10
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /liom_test_path1
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 78; 154; 6
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Path_car1
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Queue Size: 10
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /liom_test_path2
+      Unreliable: false
+      Value: true
+    - Class: rviz/InteractiveMarkers
+      Enable Transparency: true
+      Enabled: true
+      Name: InteractiveMarkers
+      Show Axes: false
+      Show Descriptions: true
+      Show Visual Aids: false
+      Update Topic: /liom_obstacle/update
+      Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: true
+      Name: Map
+      Topic: /map
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: mir1/robot_description
+      TF Prefix: mir1
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: mir2/robot_description
+      TF Prefix: mir2
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: mir3/robot_description
+      TF Prefix: mir3
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: mir4/robot_description
+      TF Prefix: mir4
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: mir5/robot_description
+      TF Prefix: mir5
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 0.30000001192092896
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: mir6/robot_description
+      TF Prefix: mir6
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 0.30000001192092896
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: mir7/robot_description
+      TF Prefix: mir7
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 0.30000001192092896
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: mir8/robot_description
+      TF Prefix: mir8
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 0.30000001192092896
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: mir9/robot_description
+      TF Prefix: mir9
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 0.30000001192092896
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: mir10/robot_description
+      TF Prefix: mir10
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 0.30000001192092896
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: mir11/robot_description
+      TF Prefix: mir11
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 0.30000001192092896
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: mir12/robot_description
+      TF Prefix: mir12
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 0.30000001192092896
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: mir13/robot_description
+      TF Prefix: mir13
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 0.30000001192092896
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: mir14/robot_description
+      TF Prefix: mir14
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 0.30000001192092896
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: mir15/robot_description
+      TF Prefix: mir15
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /visualization_marker
+      Name: Marker
+      Namespaces:
+        obstacle0: true
+        obstacle1: true
+        obstacle10: true
+        obstacle11: true
+        obstacle12: true
+        obstacle13: true
+        obstacle14: true
+        obstacle15: true
+        obstacle16: true
+        obstacle17: true
+        obstacle18: true
+        obstacle19: true
+        obstacle2: true
+        obstacle20: true
+        obstacle21: true
+        obstacle22: true
+        obstacle23: true
+        obstacle24: true
+        obstacle25: true
+        obstacle26: true
+        obstacle27: true
+        obstacle28: true
+        obstacle29: true
+        obstacle3: true
+        obstacle30: true
+        obstacle31: true
+        obstacle32: true
+        obstacle33: true
+        obstacle34: true
+        obstacle35: true
+        obstacle36: true
+        obstacle37: true
+        obstacle38: true
+        obstacle39: true
+        obstacle4: true
+        obstacle40: true
+        obstacle41: true
+        obstacle42: true
+        obstacle43: true
+        obstacle44: true
+        obstacle45: true
+        obstacle46: true
+        obstacle47: true
+        obstacle48: true
+        obstacle49: true
+        obstacle5: true
+        obstacle50: true
+        obstacle51: true
+        obstacle52: true
+        obstacle53: true
+        obstacle54: true
+        obstacle55: true
+        obstacle56: true
+        obstacle57: true
+        obstacle58: true
+        obstacle59: true
+        obstacle6: true
+        obstacle60: true
+        obstacle61: true
+        obstacle62: true
+        obstacle63: true
+        obstacle64: true
+        obstacle65: true
+        obstacle66: true
+        obstacle67: true
+        obstacle68: true
+        obstacle69: true
+        obstacle7: true
+        obstacle70: true
+        obstacle71: true
+        obstacle72: true
+        obstacle73: true
+        obstacle74: true
+        obstacle75: true
+        obstacle76: true
+        obstacle77: true
+        obstacle78: true
+        obstacle79: true
+        obstacle8: true
+        obstacle80: true
+        obstacle81: true
+        obstacle82: true
+        obstacle83: true
+        obstacle84: true
+        obstacle85: true
+        obstacle86: true
+        obstacle87: true
+        obstacle88: true
+        obstacle89: true
+        obstacle9: true
+      Queue Size: 100
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 255; 255; 255
+    Default Light: true
+    Fixed Frame: odom
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Theta std deviation: 0.2617993950843811
+      Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Angle: 6.435014724731445
+      Class: rviz/TopDownOrtho
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Scale: 16.216583251953125
+      Target Frame: <Fixed Frame>
+      X: 24.690664291381836
+      Y: 23.8859920501709
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: true
+  Height: 1016
+  Hide Left Dock: true
+  Hide Right Dock: true
+  QMainWindow State: 000000ff00000000fd000000040000000000000198000004c7fc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073000000003d000004c7000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000011f00000397fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073000000005600000397000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e100000197000000030000073800000039fc0100000002fb0000000800540069006d0065010000000000000738000003bc00fffffffb0000000800540069006d00650100000000000004500000000000000000000007380000035f00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: true
+  Width: 1848
+  X: 72
+  Y: 27

@@ -1,0 +1,7 @@
+<library path="lib/libvis_formation_planner">
+    <class name ="vis_formation_planner/LiomLocalPlannerROS" type="vis_formation_planner::LiomLocalPlannerROS" base_class_type= "nav_core::BaseGlobalPlanner">
+        <description>
+            Local planner based on LIOM (Light-weighted Iterative Optimization Method) approach
+        </description>
+    </class>
+</library>
