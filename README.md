@@ -61,11 +61,11 @@ $ roslaunch vis_formation_planner animation_demo.launch
 </p>
 
 <p align="center">
-  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/gazebo_3.gif" alt="gazebo_3" width="600">
+  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/rviz_4.gif" alt="gazebo_3" width="600">
 </p>
 
 <p align="center">
-  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/gazebo_4.gif" alt="gazebo_4" width="600">
+  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/rviz_4.gif" alt="gazebo_4" width="600">
 </p>
 
 ## Test in Gazebo
