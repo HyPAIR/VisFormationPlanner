@@ -1,21 +1,14 @@
 # VisFormationPlanner
 The source code for the paper "Robots Calling the Shots: Using Multiple Ground Robots for Autonomous Tracking in Cluttered Environments".
 <p align="center">
-  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/over_view.png" alt="formation_planning" width="364.5" height=269.25">
-</p>
-<p align="center">
-  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/case1.gif" alt="case1" width="600">
-</p>
-
-<p align="center">
-  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/case2.gif" alt="case2" width="600">
+  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/over_view.png" alt="formation_planning" width="729" height=538.5">
 </p>
 
 ## Features
 
- - A heuristic exploration method which efficiently evaluates a sequence of formation configurations.
+ - A novel sequential greedy viewpoint planning approach to generate collision-free paths that optimize camera coverage and minimize occlusions.
  
- - An iterative motion planning framework for finding locally visibility-optimal collision-free formation trajectories.
+ - A trajectory optimization method that refines the initial planned paths into smooth, kinodynamically feasible trajectories while considering the motion constraints of gimbal-mounted cameras.
 
 ## Requirements
 
