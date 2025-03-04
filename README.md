@@ -1,5 +1,5 @@
 # VisFormationPlanner
-A visibility-aware formation planning framework that can deal with visibility of the target.
+A visibility-aware formation planning framework that can deal with the visibility of the target.
 
 <p align="center">
   <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/case1.gif" alt="case1" width="600">
@@ -11,7 +11,7 @@ A visibility-aware formation planning framework that can deal with visibility of
 
 ## Features
 
- - A heuristic exploration method which efficiently evaluates a sequence of formation configuration.
+ - A heuristic exploration method which efficiently evaluates a sequence of formation configurations.
  
  - An iterative motion planning framework for finding locally visibility-optimal collision-free formation trajectories.
 
@@ -47,4 +47,10 @@ $ rosdep install visFormationPlanner
 ```shell
 $ cd ~/visFormationPlanner
 $ catkin_make
+```
+```shell
+$ roslaunch vis_formation_planner heterogeneous_triangle.launch
+$ roslaunch vis_formation_planner write_obs_to_world.launch
+$ roslaunch vis_formation_planner vis_test.launch
+$ roslaunch vis_formation_planner animation_demo.launch
 ```
