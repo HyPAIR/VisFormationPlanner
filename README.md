@@ -52,10 +52,11 @@ $ roslaunch vis_formation_planner vis_test.launch
 $ roslaunch vis_formation_planner animation_demo.launch
 ```
 <p align="center">
-  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/rviz_3.gif" alt="Multi-Formation Planning and Coordination for Object Transportation" width="300">
+  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/rviz_3.gif" alt="rviz_3" width="300">
 </p>
+
 <p align="center">
-  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/rviz_4.gif" alt="Multi-Formation Planning and Coordination for Object Transportation" width="300">
+  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/rviz_4.gif" alt="rviz_4" width="300">
 </p>
 
 ## Test in Gazebo
