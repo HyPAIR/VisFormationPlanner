@@ -51,6 +51,7 @@ Launch the simulation to trajectory optimisation result (3 robots in a simple sc
 $ roslaunch vis_formation_planner vis_test.launch
 $ roslaunch vis_formation_planner animation_demo.launch
 ```
+
 <p align="center">
   <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/rviz_3.gif" alt="rviz_3" width="600">
 </p>
@@ -66,6 +67,14 @@ Write the obstacles to the yaml file, and launch the simulation in Gazebo:
 $ roslaunch vis_formation_planner heterogeneous_triangle.launch
 $ roslaunch vis_formation_planner write_obs_to_world.launch
 ```
+
+<p align="center">
+  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/gazebo_3.gif" alt="gazebo_3" width="600">
+</p>
+
+<p align="center">
+  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/gazebo_4.gif" alt="gazebo_4" width="600">
+</p>
 
 ## Video
 
