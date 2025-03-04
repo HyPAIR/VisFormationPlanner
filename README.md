@@ -43,9 +43,29 @@ $ rosdep install visFormationPlanner
 $ cd ~/visFormationPlanner
 $ catkin_make
 ```
+
+## Test in Rviz
+
+Launch the simulation to trajectory optimisation result (3 robots in a simple scenario):
 ```shell
-$ roslaunch vis_formation_planner heterogeneous_triangle.launch
-$ roslaunch vis_formation_planner write_obs_to_world.launch
 $ roslaunch vis_formation_planner vis_test.launch
 $ roslaunch vis_formation_planner animation_demo.launch
 ```
+<p align="center">
+  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/rviz_3.gif" alt="Multi-Formation Planning and Coordination for Object Transportation" width="300">
+</p>
+<p align="center">
+  <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/rviz_4.gif" alt="Multi-Formation Planning and Coordination for Object Transportation" width="300">
+</p>
+
+## Test in Gazebo
+
+Write the obstacles to the yaml file, and launch the simulation in Gazebo:
+```shell
+$ roslaunch vis_formation_planner heterogeneous_triangle.launch
+$ roslaunch vis_formation_planner write_obs_to_world.launch
+```
+
+## Video
+
+A simulation video demonstrating our proposed framework can be found at [bilibili](https://www.bilibili.com/video/BV15Z9jY2ECA/?spm_id_from=333.1387.list.card_archive.click&vd_source=bf49c74265570abfae0e3bacc588f839).
