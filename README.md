@@ -51,11 +51,11 @@ Launch the simulation to trajectory optimisation result (3 robots in a simple sc
 $ roslaunch vis_formation_planner vis_test.launch
 $ roslaunch vis_formation_planner animation_demo.launch
 ```
-<p align="center">
+<p>
   <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/rviz_3.gif" alt="rviz_3" width="300">
 </p>
 
-<p align="center">
+<p>
   <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/rviz_4.gif" alt="rviz_4" width="300">
 </p>
 
