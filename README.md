@@ -64,8 +64,8 @@ $ roslaunch vis_formation_planner animation_demo.launch
 
 Write the obstacles to the yaml file, and launch the simulation in Gazebo:
 ```shell
-$ roslaunch vis_formation_planner heterogeneous_triangle.launch
 $ roslaunch vis_formation_planner write_obs_to_world.launch
+$ roslaunch vis_formation_planner heterogeneous_triangle.launch
 ```
 
 <p align="center">
