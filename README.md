@@ -79,3 +79,16 @@ $ roslaunch vis_formation_planner heterogeneous_triangle.launch
 ## Video
 
 A simulation video demonstrating our proposed framework can be found at [bilibili](https://www.bilibili.com/video/BV15Z9jY2ECA/?spm_id_from=333.1387.list.card_archive.click&vd_source=bf49c74265570abfae0e3bacc588f839)/[youtube](https://www.youtube.com/watch?v=JThzKUf0beA).
+
+### Citation
+
+If you find this work useful, please cite ([paper](https://research.birmingham.ac.uk/en/publications/robots-calling-the-shots-using-multiple-ground-robots-for-autonom)):
+
+```bibtex
+@inproceedings{zhang2025robots,
+  title={Robots Calling the Shots: Using Multiple Ground Robots for Autonomous Tracking in Cluttered Environments},
+  author={Street, Charlie and Grubb, Oliver and Mansouri, Masoumeh},
+  booktitle={Proceedings of the International Conference on Intelligent Robots and Systems (IROS)},
+  year={2025},
+}
+```
