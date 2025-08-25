@@ -14,7 +14,7 @@ The source code for the paper "Robots Calling the Shots: Using Multiple Ground R
 
  - ROS Noetic or later
  - Ubuntu 20.04 or later
- - You'll also need a license for Gurobi
+ - Gurobi 10.0.1 or later
 
 ## Installation
 
