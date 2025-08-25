@@ -20,7 +20,6 @@
 #include <vector>
 #include "vis_formation_planner/math/pose.h"
 #include "vis_formation_planner/optimizer_interface.h"
-#include "vis_formation_planner/forward_kinematics.h"
 #include "traj_tracking/matplotlibcpp.h"
 #include "traj_tracking/fg_test.h"
 #include <ackermann_msgs/AckermannDriveStamped.h>
@@ -30,7 +29,6 @@
 #include <fstream>
 namespace plt = matplotlibcpp;
 using namespace vis_formation_planner;
-using namespace forward_kinematics;
 using namespace math;
 
 // function to get robot position and orientation from odom topic
