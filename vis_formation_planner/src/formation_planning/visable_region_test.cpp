@@ -8,16 +8,15 @@
 */
 #include <iostream>
 #include <ros/ros.h>
-#include "vis_formation_planner/vis_formation_planner.h"
 #include "vis_formation_planner/math/generate_obs.h"
 #include "vis_formation_planner/visualization/plot.h"
 #include "vis_formation_planner/yaml_all.h"
 #include "traj_tracking/matplotlibcpp.h"
-#include "vis_formation_planner/forward_kinematics.h"
 #include <nav_msgs/Path.h>
 #include <random>
 #include "vis_formation_planner/visualization/visualization.h"
 #include "vis_formation_planner/robot_angle_optimizaer.h"
+#include "vis_formation_planner/coarse_path_planner.h"
 #include "vis_formation_planner/utils.h"
 
 // Parameters
@@ -67,7 +66,6 @@ int main(int argc, char* argv[])
     auto config_ = std::make_shared<PlannerConfig>();
     config_->vehicle.InitializeDiscs();
     auto env = std::make_shared<Environment>(config_);
-    auto planner_ = std::make_shared<LiomLocalPlanner>(config_, env);
     env->polygons() = polys_inflat_ecbs;
     // Test parameters
     Eigen::Vector2d center, center_prev; // Center of the environment
