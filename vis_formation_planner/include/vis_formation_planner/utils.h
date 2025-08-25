@@ -3,12 +3,10 @@
 #include <vector>
 #include <string>
 #include <ros/ros.h>
-#include "vis_formation_planner/vis_formation_planner.h"
 #include "vis_formation_planner/math/generate_obs.h"
 #include "vis_formation_planner/visualization/plot.h"
 #include "vis_formation_planner/yaml_all.h"
 // #include "traj_tracking/matplotlibcpp.h"
-#include "vis_formation_planner/forward_kinematics.h"
 #include <nav_msgs/Path.h>
 #include <random>
 #include "vis_formation_planner/visualization/visualization.h"
