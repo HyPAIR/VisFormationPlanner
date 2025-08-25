@@ -173,7 +173,6 @@ add_library(vis_formation_planner
   src/math/vec2d.cpp
   src/visualization/color.cpp
   src/visualization/plot.cpp
-  src/formation_planning/vis_formation_planner.cpp
   src/formation_planning/coarse_path_planner.cpp
   src/formation_planning/environment.cpp
   src/yaml.cpp
@@ -234,19 +233,6 @@ target_link_libraries(control_rectangle_formation ${catkin_LIBRARIES})
 target_link_libraries(control_rectangle_formation /usr/local/lib/libyaml-cpp.so.0.8)
 target_include_directories(control_rectangle_formation PUBLIC /usr/include/eigen3)
 target_link_libraries(control_rectangle_formation /usr/lib/python3.8/config-3.8-x86_64-linux-gnu/libpython3.8.so)
-
-add_executable(animation_flexible src/formation_planning/animation.cpp src/trajectory_tracking/plot.cpp)
-target_link_libraries(animation_flexible ${catkin_LIBRARIES} vis_formation_planner)
-target_link_libraries(animation_flexible /usr/local/lib/libyaml-cpp.so.0.8)
-target_include_directories(animation_flexible PUBLIC /usr/include/eigen3)
-target_link_libraries(animation_flexible
-  ${OCTOMAP_INCLUDE_DIRS}
-  ${SIPP_LINK_LIBS}
-  ${PYTHON_LIBRARIES}
-  m
-  ipopt
-  /usr/lib/python3.8/config-3.8-x86_64-linux-gnu/libpython3.8.so
-)
 
 add_executable(animation_complete src/animation/complete_animation.cpp)
 target_link_libraries(animation_complete ${catkin_LIBRARIES} vis_formation_planner)
