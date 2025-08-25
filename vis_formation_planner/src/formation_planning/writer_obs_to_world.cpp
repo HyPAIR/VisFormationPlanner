@@ -3,14 +3,12 @@
 #include <string>
 #include "vis_formation_planner/yaml_all.h"
 #include "vis_formation_planner/optimizer_interface.h"
-#include "vis_formation_planner/forward_kinematics.h"
 #include <vector>
 #include <ignition/math/Vector3.hh>
 #include <ignition/math/Quaternion.hh>
 #include <ignition/math/Pose3.hh>
 
 using namespace vis_formation_planner;
-using namespace forward_kinematics;
 
 void generateRegularPolygon(const double r, const int k, 
   std::vector<std::vector<double>>& vertice_set) {
