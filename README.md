@@ -34,7 +34,8 @@ $ git clone git@github.com:HyPAIR/visFormationPlanner.git
 
 3. Install dependencies:
 ```shell
-$ rosdep install visFormationPlanner
+$ cd ~/visFormationPlanner/src/visFormationPlanner/vis_formation_planner
+$ rosdep install --from-paths src --ignore-src --rosdistro noetic -r -y
 ```
 
 4. Build the workspace:
