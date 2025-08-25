@@ -10,7 +10,6 @@
 #include <ros/ros.h>
 #include <to_solver/param.hpp>
 #include <to_solver/mission.hpp>
-#include "vis_formation_planner/vis_formation_planner.h"
 #include "vis_formation_planner/math/generate_obs.h"
 #include "vis_formation_planner/visualization/plot.h"
 #include "vis_formation_planner/yaml_all.h"
