@@ -221,7 +221,6 @@ int main(int argc, char* argv[])
     // std::vector<std::vector<double>> human_traj = readVectorsFromYAML("/home/weijian/VisFormation/src/vis_formation_planner/result/wang/3/human_traj_50" + std::to_string(j) + ".yaml");
     auto plan =  generate_traj_fg("/home/weijian/VisFormation/src/vis_formation_planner/result/zhou/3/fg_comp90"  + tail + ".yaml", 3);
     std::vector<std::vector<double>> human_traj = readVectorsFromYAML("/home/weijian/VisFormation/src/vis_formation_planner/result/zhou/3/human_traj_comp90" + tail + ".yaml");
-    std::vector<std::vector<double>> angle_set = readVectorsFromYAML("/home/weijian/VisFormation/src/vis_formation_planner/result/angle_set.yaml");
     std::string obs_path = "/home/weijian/VisFormation/src/vis_formation_planner/result/obstacle_comp" + std::to_string(90) + tail + ".yaml";
     double traj_len = 0.0;
     for (int i = 0; i < plan.size(); i++) {
