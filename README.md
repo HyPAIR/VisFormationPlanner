@@ -1,4 +1,15 @@
-# [IROS 2025] VisFormationPlanner
+<div align ="center">
+<h3> IROS 2025: Robots Calling the Shots: Using Multiple Ground Robots for Autonomous Tracking in Cluttered Environments </h3>
+
+Weijian Zhang, Charlie Street, Masoumeh Mansouri
+
+University of Birmingham
+
+<a href="https://ieeexplore.ieee.org/document/11128313"><img alt="Paper" src="https://img.shields.io/badge/Paper-IEEE%20Xplore-pink"/></a>
+<a href="https://youtu.be/JThzKUf0beA"><img alt="Video" src="https://img.shields.io/badge/Video-Youtube-red"/></a>
+</div>
+
+## Overview
 The source code for the paper "Robots Calling the Shots: Using Multiple Ground Robots for Autonomous Tracking in Cluttered Environments".
 <p align="center">
   <img src="https://github.com/HyPAIR/VisFormationPlanner/blob/main/documents/over_view.png" alt="formation_planning" width="729" height=538.5">
