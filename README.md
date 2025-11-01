@@ -6,7 +6,7 @@ Weijian Zhang, Charlie Street, Masoumeh Mansouri
 University of Birmingham
 
 <!-- <a href="https://ieeexplore.ieee.org/document/11128313"><img alt="Paper" src="https://img.shields.io/badge/Paper-IEEE%20Xplore-pink"/></a> -->
-<a href="https://research.birmingham.ac.uk/en/publications/robots-calling-the-shots-using-multiple-ground-robots-for-autonom/"><img alt="Paper" src="https://img.shields.io/badge/Paper-preprint-8A2BE2"/></a>
+<a href="https://research.birmingham.ac.uk/en/publications/robots-calling-the-shots-using-multiple-ground-robots-for-autonom/"><img alt="Paper" src="https://img.shields.io/badge/Paper-Preprint-8A2BE2"/></a>
 <a href="https://youtu.be/JThzKUf0beA"><img alt="Video" src="https://img.shields.io/badge/Video-Youtube-red"/></a>
 </div>
 
