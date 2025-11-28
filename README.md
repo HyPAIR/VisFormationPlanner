@@ -5,8 +5,8 @@ Weijian Zhang, Charlie Street, Masoumeh Mansouri
 
 University of Birmingham
 
-<!-- <a href="https://ieeexplore.ieee.org/document/11128313"><img alt="Paper" src="https://img.shields.io/badge/Paper-IEEE%20Xplore-pink"/></a> -->
-<a href="https://research.birmingham.ac.uk/en/publications/robots-calling-the-shots-using-multiple-ground-robots-for-autonom/"><img alt="Paper" src="https://img.shields.io/badge/Paper-Preprint-8A2BE2"/></a>
+<<a href="https://ieeexplore.ieee.org/document/11247464"><img alt="Paper" src="https://img.shields.io/badge/Paper-IEEE%20Xplore-pink"/></a>
+<!-- <a href="https://research.birmingham.ac.uk/en/publications/robots-calling-the-shots-using-multiple-ground-robots-for-autonom/"><img alt="Paper" src="https://img.shields.io/badge/Paper-Preprint-8A2BE2"/></a> -->
 <a href="https://youtu.be/JThzKUf0beA"><img alt="Video" src="https://img.shields.io/badge/Video-Youtube-red"/></a>
 </div>
 
@@ -98,10 +98,15 @@ A simulation video demonstrating our proposed framework can be found at [bilibil
 If you find this work useful, please cite ([paper](https://research.birmingham.ac.uk/en/publications/robots-calling-the-shots-using-multiple-ground-robots-for-autonom)):
 
 ```bibtex
-@inproceedings{zhang2025robots,
-  title={Robots Calling the Shots: Using Multiple Ground Robots for Autonomous Tracking in Cluttered Environments},
-  author={Street, Charlie and Grubb, Oliver and Mansouri, Masoumeh},
-  booktitle={Proceedings of the International Conference on Intelligent Robots and Systems (IROS)},
+@INPROCEEDINGS{11247464,
+  author={Zhang, Weijian and Street, Charlie and Mansouri, Masoumeh},
+  booktitle={2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Robots Calling the Shots: Using Multiple Ground Robots for Autonomous Tracking in Cluttered Environments}, 
   year={2025},
-}
+  volume={},
+  number={},
+  pages={12667-12674},
+  keywords={Target tracking;Robot vision systems;Green products;Cinematography;Cameras;Planning;Safety;Collision avoidance;Robots;Trajectory optimization},
+  doi={10.1109/IROS60139.2025.11247464}}
+
 ```
