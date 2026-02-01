@@ -3,7 +3,6 @@ project(vis_formation_planner)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(CMAKE_BUILD_TYPE Release)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -w")
 
 #ECBS
